@@ -1,0 +1,7 @@
+cp /hpc/cog_bioinf/cuppen/processed_data/external/HMFreg0161/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.gz /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+cp /hpc/cog_bioinf/ubec/useq/processed_data/external/HMFreg0498_UMCU-002-063_ekuijk/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+cp /hpc/cog_bioinf/cuppen/project_data/Sander_Invitro_organoids_redo/17513D/vcf/17513D/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+cp /hpc/cog_bioinf/cuppen/project_data/Sander_Invitro_organoids_redo/C30913D/vcf/C30913D/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+cp /hpc/cog_bioinf/cuppen/project_data/Sander_Invitro_organoids_redo/STE0072/vcf/STE0072/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+cp /hpc/cog_bioinf/cuppen/project_data/Sander_Invitro_organoids_redo/STE0076/vcf/STE0076/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files
+

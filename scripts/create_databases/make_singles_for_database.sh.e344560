@@ -1,0 +1,1009 @@
+INFO  10:50:20,319 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:50:20,343 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  10:50:20,343 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  10:50:20,344 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  10:50:20,348 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/17513DBiopsy.vcf -sn 17513DBiopsy 
+INFO  10:50:20,369 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  10:50:20,370 HelpFormatter - Date/Time: 2019/09/25 10:50:20 
+INFO  10:50:20,370 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:50:20,371 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:50:20,621 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  10:50:20,720 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  10:50:23,933 GenomeAnalysisEngine - Preparing for traversal 
+INFO  10:50:23,942 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  10:50:23,942 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  10:50:23,943 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  10:50:23,943 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  10:50:23,947 SelectVariants - Including sample '17513DBiopsy' 
+INFO  10:50:53,955 ProgressMeter -     2:137674321    927686.0    30.0 s      32.0 s       12.5%     4.0 m       3.5 m 
+INFO  10:51:23,994 ProgressMeter -      5:45824872   2280498.0    60.0 s      26.0 s       30.0%     3.3 m       2.3 m 
+INFO  10:51:54,017 ProgressMeter -      8:92840278   3674824.0    90.0 s      24.0 s       48.0%     3.1 m      97.0 s 
+INFO  10:52:24,127 ProgressMeter -    12:105472252   5088162.0   120.0 s      23.0 s       66.4%     3.0 m      60.0 s 
+INFO  10:52:54,128 ProgressMeter -      19:6771804   6528228.0     2.5 m      23.0 s       86.1%     2.9 m      24.0 s 
+INFO  10:53:11,475 SelectVariants - 5323119 records processed. 
+INFO  10:53:12,288 ProgressMeter -            done   7417123.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  10:53:12,289 ProgressMeter - Total runtime 168.35 secs, 2.81 min, 0.05 hours 
+INFO  10:53:16,879 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  10:53:19,805 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:53:19,807 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  10:53:19,808 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  10:53:19,808 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  10:53:19,811 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/17513DC10.vcf -sn 17513DC10 
+INFO  10:53:19,888 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  10:53:19,889 HelpFormatter - Date/Time: 2019/09/25 10:53:19 
+INFO  10:53:19,890 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:53:19,890 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:53:20,126 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  10:53:20,218 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  10:53:20,407 GenomeAnalysisEngine - Preparing for traversal 
+INFO  10:53:20,415 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  10:53:20,416 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  10:53:20,416 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  10:53:20,416 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  10:53:20,420 SelectVariants - Including sample '17513DC10' 
+INFO  10:53:50,636 ProgressMeter -     2:186295256   1035497.0    30.0 s      29.0 s       14.1%     3.6 m       3.1 m 
+INFO  10:54:20,666 ProgressMeter -     5:149426454   2489040.0    60.0 s      24.0 s       33.3%     3.0 m     120.0 s 
+INFO  10:54:50,668 ProgressMeter -      9:71789694   3965984.0    90.0 s      22.0 s       52.0%     2.9 m      82.0 s 
+INFO  10:55:20,670 ProgressMeter -     14:40604171   5480985.0   120.0 s      21.0 s       72.4%     2.8 m      45.0 s 
+INFO  10:55:50,671 ProgressMeter -     21:37540224   6971279.0     2.5 m      21.0 s       91.1%     2.7 m      14.0 s 
+INFO  10:56:00,358 SelectVariants - 5323119 records processed. 
+INFO  10:56:00,655 ProgressMeter -            done   7417123.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  10:56:00,655 ProgressMeter - Total runtime 160.24 secs, 2.67 min, 0.04 hours 
+INFO  10:56:05,243 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  10:56:10,945 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:56:10,950 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  10:56:10,950 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  10:56:10,950 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  10:56:10,954 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/17513DC3.vcf -sn 17513DC3 
+INFO  10:56:10,968 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  10:56:10,968 HelpFormatter - Date/Time: 2019/09/25 10:56:10 
+INFO  10:56:10,968 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:56:10,969 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:56:11,220 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  10:56:11,316 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  10:56:11,506 GenomeAnalysisEngine - Preparing for traversal 
+INFO  10:56:11,517 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  10:56:11,518 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  10:56:11,518 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  10:56:11,518 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  10:56:11,523 SelectVariants - Including sample '17513DC3' 
+INFO  10:56:41,526 ProgressMeter -     2:128737133    896138.0    30.0 s      33.0 s       12.2%     4.1 m       3.6 m 
+INFO  10:57:11,531 ProgressMeter -      5:29798947   2241694.0    60.0 s      26.0 s       29.4%     3.4 m       2.4 m 
+INFO  10:57:41,533 ProgressMeter -     8:105983028   3699737.0    90.0 s      24.0 s       48.4%     3.1 m      95.0 s 
+INFO  10:58:11,535 ProgressMeter -    12:117361961   5112702.0   120.0 s      23.0 s       66.8%     3.0 m      59.0 s 
+INFO  10:58:41,569 ProgressMeter -     19:12994318   6547705.0     2.5 m      22.0 s       86.3%     2.9 m      23.0 s 
+INFO  10:58:57,986 SelectVariants - 5323119 records processed. 
+INFO  10:58:58,816 ProgressMeter -            done   7417123.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  10:58:58,817 ProgressMeter - Total runtime 167.30 secs, 2.79 min, 0.05 hours 
+INFO  10:59:03,216 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  10:59:06,341 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:59:06,343 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  10:59:06,343 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  10:59:06,343 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  10:59:06,347 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/17513DSC105.vcf -sn 17513DSC105 
+INFO  10:59:06,357 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  10:59:06,357 HelpFormatter - Date/Time: 2019/09/25 10:59:06 
+INFO  10:59:06,358 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:59:06,358 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  10:59:06,595 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  10:59:06,688 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  10:59:06,878 GenomeAnalysisEngine - Preparing for traversal 
+INFO  10:59:06,886 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  10:59:06,887 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  10:59:06,887 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  10:59:06,887 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  10:59:06,891 SelectVariants - Including sample '17513DSC105' 
+INFO  10:59:36,919 ProgressMeter -     2:195357937   1056107.0    30.0 s      28.0 s       14.4%     3.5 m       3.0 m 
+INFO  11:00:07,016 ProgressMeter -     5:171780501   2538474.0    60.0 s      23.0 s       34.0%     2.9 m     116.0 s 
+INFO  11:00:37,017 ProgressMeter -      9:80658797   3985474.0    90.0 s      22.0 s       52.3%     2.9 m      82.0 s 
+INFO  11:01:07,019 ProgressMeter -    13:110133874   5407211.0   120.0 s      22.0 s       70.9%     2.8 m      49.0 s 
+INFO  11:01:37,242 ProgressMeter -      21:9656470   6859605.0     2.5 m      21.0 s       90.2%     2.8 m      16.0 s 
+INFO  11:01:48,103 SelectVariants - 5323119 records processed. 
+INFO  11:01:49,019 ProgressMeter -            done   7417123.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:01:49,020 ProgressMeter - Total runtime 162.13 secs, 2.70 min, 0.05 hours 
+INFO  11:01:54,890 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:01:58,190 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:01:58,192 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:01:58,192 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:01:58,192 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:01:58,195 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/17513D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/17513DSC33.vcf -sn 17513DSC33 
+INFO  11:01:58,214 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:01:58,214 HelpFormatter - Date/Time: 2019/09/25 11:01:58 
+INFO  11:01:58,215 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:01:58,215 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:01:58,462 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:01:58,560 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:01:58,761 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:01:58,773 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:01:58,774 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:01:58,774 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:01:58,774 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:01:58,779 SelectVariants - Including sample '17513DSC33' 
+INFO  11:02:28,784 ProgressMeter -     2:133342198    913718.0    30.0 s      32.0 s       12.4%     4.0 m       3.5 m 
+INFO  11:02:58,786 ProgressMeter -      5:49410530   2283570.0    60.0 s      26.0 s       30.1%     3.3 m       2.3 m 
+INFO  11:03:29,035 ProgressMeter -     8:120080115   3730284.0    90.0 s      24.0 s       48.9%     3.1 m      94.0 s 
+INFO  11:03:59,086 ProgressMeter -    12:125503218   5133743.0   120.0 s      23.0 s       67.1%     3.0 m      58.0 s 
+INFO  11:04:29,088 ProgressMeter -      19:7862767   6531763.0     2.5 m      23.0 s       86.2%     2.9 m      24.0 s 
+INFO  11:04:45,170 SelectVariants - 5323119 records processed. 
+INFO  11:04:45,881 ProgressMeter -            done   7417123.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  11:04:45,882 ProgressMeter - Total runtime 167.11 secs, 2.79 min, 0.05 hours 
+INFO  11:04:50,770 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:04:54,178 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:04:54,182 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:04:54,182 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:04:54,182 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:04:54,186 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/C30913DBiopsy.vcf -sn C30913DBiopsy 
+INFO  11:04:54,205 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:04:54,205 HelpFormatter - Date/Time: 2019/09/25 11:04:54 
+INFO  11:04:54,205 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:04:54,205 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:04:54,426 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:04:54,526 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:05:48,258 RMDTrackBuilder - Writing Tribble index to disk for file /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.idx 
+INFO  11:06:03,723 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:06:03,736 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:06:03,736 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:06:03,739 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:06:03,739 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:06:03,743 SelectVariants - Including sample 'C30913DBiopsy' 
+INFO  11:06:33,742 ProgressMeter -     2:213263646   1098071.0    30.0 s      27.0 s       14.9%     3.3 m       2.8 m 
+INFO  11:07:03,749 ProgressMeter -     5:163910158   2533724.0    60.0 s      23.0 s       33.8%     3.0 m     117.0 s 
+INFO  11:07:33,750 ProgressMeter -      9:94704110   4025727.0    90.0 s      22.0 s       52.8%     2.8 m      80.0 s 
+INFO  11:08:03,907 ProgressMeter -     14:36810877   5500204.0   120.0 s      21.0 s       72.3%     2.8 m      46.0 s 
+INFO  11:08:34,062 ProgressMeter -     21:11079553   6940496.0     2.5 m      21.0 s       90.2%     2.8 m      16.0 s 
+INFO  11:08:43,061 SelectVariants - 5283465 records processed. 
+INFO  11:08:43,799 ProgressMeter -            done   7413504.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:08:43,799 ProgressMeter - Total runtime 160.06 secs, 2.67 min, 0.04 hours 
+INFO  11:08:47,101 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:08:50,579 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:08:50,582 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:08:50,582 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:08:50,582 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:08:50,586 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/C30913DC10.vcf -sn C30913DC10 
+INFO  11:08:50,602 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:08:50,602 HelpFormatter - Date/Time: 2019/09/25 11:08:50 
+INFO  11:08:50,602 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:08:50,603 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:08:50,840 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:08:50,939 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:08:51,142 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:08:51,150 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:08:51,151 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:08:51,151 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:08:51,151 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:08:51,156 SelectVariants - Including sample 'C30913DC10' 
+INFO  11:09:21,174 ProgressMeter -     2:142077028    941836.0    30.0 s      31.0 s       12.6%     4.0 m       3.5 m 
+INFO  11:09:51,177 ProgressMeter -      5:65662133   2333972.0    60.0 s      25.0 s       30.6%     3.3 m       2.3 m 
+INFO  11:10:21,193 ProgressMeter -       9:3823615   3812754.0    90.0 s      23.0 s       49.8%     3.0 m      90.0 s 
+INFO  11:10:51,298 ProgressMeter -     13:95995737   5394130.0   120.0 s      22.0 s       70.4%     2.8 m      50.0 s 
+INFO  11:11:21,384 ProgressMeter -     21:10717168   6919577.0     2.5 m      21.0 s       90.2%     2.8 m      16.0 s 
+INFO  11:11:29,845 SelectVariants - 5283465 records processed. 
+INFO  11:11:30,517 ProgressMeter -            done   7413504.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:11:30,518 ProgressMeter - Total runtime 159.37 secs, 2.66 min, 0.04 hours 
+INFO  11:11:35,271 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:11:38,157 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:11:38,162 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:11:38,162 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:11:38,162 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:11:38,165 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/C30913DC12.vcf -sn C30913DC12 
+INFO  11:11:38,175 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:11:38,175 HelpFormatter - Date/Time: 2019/09/25 11:11:38 
+INFO  11:11:38,176 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:11:38,176 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:11:38,398 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:11:38,484 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:11:38,674 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:11:38,692 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:11:38,692 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:11:38,692 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:11:38,692 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:11:38,701 SelectVariants - Including sample 'C30913DC12' 
+INFO  11:12:08,705 ProgressMeter -     2:179756500   1023092.0    30.0 s      29.0 s       13.9%     3.6 m       3.1 m 
+INFO  11:12:38,706 ProgressMeter -     5:122424781   2449610.0    60.0 s      24.0 s       32.4%     3.1 m       2.1 m 
+INFO  11:13:08,715 ProgressMeter -      9:45358767   3920363.0    90.0 s      22.0 s       51.2%     2.9 m      85.0 s 
+INFO  11:13:38,717 ProgressMeter -    13:106481218   5422068.0   120.0 s      22.0 s       70.8%     2.8 m      49.0 s 
+INFO  11:14:08,718 ProgressMeter -      21:9960791   6900171.0     2.5 m      21.0 s       90.2%     2.8 m      16.0 s 
+INFO  11:14:18,072 SelectVariants - 5283465 records processed. 
+INFO  11:14:18,697 ProgressMeter -            done   7413504.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:14:18,698 ProgressMeter - Total runtime 160.01 secs, 2.67 min, 0.04 hours 
+INFO  11:14:23,606 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:14:26,772 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:14:26,774 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:14:26,775 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:14:26,775 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:14:26,777 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/C30913DSC109.vcf -sn C30913DSC109 
+INFO  11:14:26,791 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:14:26,792 HelpFormatter - Date/Time: 2019/09/25 11:14:26 
+INFO  11:14:26,792 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:14:26,792 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:14:27,023 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:14:27,135 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:14:27,350 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:14:27,358 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:14:27,359 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:14:27,359 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:14:27,359 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:14:27,364 SelectVariants - Including sample 'C30913DSC109' 
+INFO  11:14:57,366 ProgressMeter -     2:140930736    935090.0    30.0 s      32.0 s       12.6%     4.0 m       3.5 m 
+INFO  11:15:27,369 ProgressMeter -      5:65990867   2333972.0    60.0 s      25.0 s       30.6%     3.3 m       2.3 m 
+INFO  11:15:57,371 ProgressMeter -     8:135650803   3772678.0    90.0 s      23.0 s       49.4%     3.0 m      92.0 s 
+INFO  11:16:27,373 ProgressMeter -     13:38840943   5246821.0   120.0 s      22.0 s       68.6%     2.9 m      54.0 s 
+INFO  11:16:57,374 ProgressMeter -     20:10197959   6759437.0     2.5 m      22.0 s       88.1%     2.8 m      20.0 s 
+INFO  11:17:09,443 SelectVariants - 5283465 records processed. 
+INFO  11:17:10,020 ProgressMeter -            done   7413504.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:17:10,021 ProgressMeter - Total runtime 162.66 secs, 2.71 min, 0.05 hours 
+INFO  11:17:14,957 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:17:17,979 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:17:17,981 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:17:17,981 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:17:17,982 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:17:17,985 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/C30913D.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/C30913DSC125.vcf -sn C30913DSC125 
+INFO  11:17:17,998 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:17:17,998 HelpFormatter - Date/Time: 2019/09/25 11:17:17 
+INFO  11:17:17,999 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:17:17,999 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:17:18,247 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:17:18,342 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:17:18,536 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:17:18,545 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:17:18,545 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:17:18,545 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:17:18,546 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:17:18,552 SelectVariants - Including sample 'C30913DSC125' 
+INFO  11:17:48,722 ProgressMeter -     2:200477501   1069936.0    30.0 s      28.0 s       14.5%     3.4 m       2.9 m 
+INFO  11:18:18,723 ProgressMeter -     5:133444567   2473830.0    60.0 s      24.0 s       32.8%     3.0 m       2.0 m 
+INFO  11:18:48,725 ProgressMeter -      9:68480054   3940661.0    90.0 s      22.0 s       51.9%     2.9 m      83.0 s 
+INFO  11:19:18,727 ProgressMeter -    13:114927133   5446071.0   120.0 s      22.0 s       71.1%     2.8 m      48.0 s 
+INFO  11:19:48,776 ProgressMeter -      21:9908570   6900171.0     2.5 m      21.0 s       90.2%     2.8 m      16.0 s 
+INFO  11:19:58,482 SelectVariants - 5283465 records processed. 
+INFO  11:19:59,144 ProgressMeter -            done   7413504.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  11:19:59,144 ProgressMeter - Total runtime 160.60 secs, 2.68 min, 0.04 hours 
+INFO  11:20:04,939 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:20:08,637 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:20:08,640 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:20:08,640 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:20:08,640 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:20:08,644 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVBULK.vcf -sn EWSEVBULK 
+INFO  11:20:08,674 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:20:08,675 HelpFormatter - Date/Time: 2019/09/25 11:20:08 
+INFO  11:20:08,675 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:20:08,676 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:20:08,996 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:20:09,102 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:21:06,118 RMDTrackBuilder - Writing Tribble index to disk for file /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.idx 
+INFO  11:21:21,803 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:21:21,810 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:21:21,811 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:21:21,811 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:21:21,811 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:21:21,816 SelectVariants - Including sample 'EWSEVBULK' 
+INFO  11:21:51,836 ProgressMeter -     2:136963072   1049956.0    30.0 s      28.0 s       12.5%     4.0 m       3.5 m 
+INFO  11:22:21,837 ProgressMeter -     4:190503755   2422732.0    60.0 s      24.0 s       28.5%     3.5 m       2.5 m 
+INFO  11:22:51,838 ProgressMeter -      8:12206964   3971404.0    90.0 s      22.0 s       45.4%     3.3 m     108.0 s 
+INFO  11:23:21,839 ProgressMeter -    11:133083333   5485878.0   120.0 s      21.0 s       63.0%     3.2 m      70.0 s 
+INFO  11:23:51,926 ProgressMeter -     17:21535632   7025144.0     2.5 m      21.0 s       81.5%     3.1 m      34.0 s 
+INFO  11:24:19,950 SelectVariants - 5739851 records processed. 
+INFO  11:24:20,640 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:24:20,642 ProgressMeter - Total runtime 178.83 secs, 2.98 min, 0.05 hours 
+INFO  11:24:23,670 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:24:26,797 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:24:26,800 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:24:26,800 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:24:26,800 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:24:26,806 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVCA1.vcf -sn EWSEVCA1 
+INFO  11:24:26,821 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:24:26,822 HelpFormatter - Date/Time: 2019/09/25 11:24:26 
+INFO  11:24:26,823 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:24:26,823 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:24:27,092 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:24:27,204 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:24:27,425 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:24:27,433 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:24:27,433 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:24:27,434 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:24:27,434 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:24:27,438 SelectVariants - Including sample 'EWSEVCA1' 
+INFO  11:24:57,443 ProgressMeter -      2:98012766    941785.0    30.0 s      31.0 s       11.2%     4.5 m       4.0 m 
+INFO  11:25:27,445 ProgressMeter -     4:139995689   2267890.0    60.0 s      26.0 s       26.8%     3.7 m       2.7 m 
+INFO  11:25:57,446 ProgressMeter -      7:82100165   3683691.0    90.0 s      24.0 s       42.5%     3.5 m       2.0 m 
+INFO  11:26:27,448 ProgressMeter -    10:135463604   5098237.0   120.0 s      23.0 s       58.7%     3.4 m      84.0 s 
+INFO  11:26:57,454 ProgressMeter -     15:47377879   6500375.0     2.5 m      23.0 s       76.1%     3.3 m      47.0 s 
+INFO  11:27:27,463 ProgressMeter -     21:19070092   7914423.0     3.0 m      22.0 s       90.5%     3.3 m      18.0 s 
+INFO  11:27:38,686 SelectVariants - 5739851 records processed. 
+INFO  11:27:39,271 ProgressMeter -            done   8439815.0     3.2 m      22.0 s      100.0%     3.2 m       0.0 s 
+INFO  11:27:39,271 ProgressMeter - Total runtime 191.84 secs, 3.20 min, 0.05 hours 
+INFO  11:27:44,380 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:27:50,841 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:27:50,844 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:27:50,844 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:27:50,844 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:27:50,848 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVCA3.vcf -sn EWSEVCA3 
+INFO  11:27:50,864 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:27:50,865 HelpFormatter - Date/Time: 2019/09/25 11:27:50 
+INFO  11:27:50,865 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:27:50,866 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:27:51,121 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:27:51,223 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:27:51,424 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:27:51,438 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:27:51,439 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:27:51,439 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:27:51,440 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:27:51,445 SelectVariants - Including sample 'EWSEVCA3' 
+INFO  11:28:21,462 ProgressMeter -      2:80467037    885721.0    30.0 s      33.0 s       10.7%     4.7 m       4.2 m 
+INFO  11:28:51,483 ProgressMeter -     4:162703219   2327843.0    60.0 s      25.0 s       27.6%     3.6 m       2.6 m 
+INFO  11:29:21,485 ProgressMeter -     7:150882200   3864880.0    90.0 s      23.0 s       44.7%     3.4 m     111.0 s 
+INFO  11:29:51,486 ProgressMeter -    11:102915046   5400365.0   120.0 s      22.0 s       62.0%     3.2 m      73.0 s 
+INFO  11:30:21,487 ProgressMeter -     16:79993227   6898260.0     2.5 m      21.0 s       80.4%     3.1 m      36.0 s 
+INFO  11:30:51,489 ProgressMeter -     X:145568365   8363638.0     3.0 m      21.0 s       97.8%     3.1 m       4.0 s 
+INFO  11:30:53,126 SelectVariants - 5739851 records processed. 
+INFO  11:30:53,748 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:30:53,749 ProgressMeter - Total runtime 182.31 secs, 3.04 min, 0.05 hours 
+INFO  11:30:58,019 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:31:01,140 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:31:01,142 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:31:01,142 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:31:01,143 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:31:01,146 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVCB3.vcf -sn EWSEVCB3 
+INFO  11:31:01,166 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:31:01,166 HelpFormatter - Date/Time: 2019/09/25 11:31:01 
+INFO  11:31:01,166 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:31:01,166 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:31:01,374 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:31:01,474 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:31:01,660 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:31:01,667 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:31:01,667 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:31:01,667 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:31:01,668 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:31:01,671 SelectVariants - Including sample 'EWSEVCB3' 
+INFO  11:31:31,975 ProgressMeter -     2:131365152   1026022.0    30.0 s      29.0 s       12.3%     4.1 m       3.6 m 
+INFO  11:32:01,976 ProgressMeter -      5:24963359   2526662.0    60.0 s      23.0 s       29.3%     3.4 m       2.4 m 
+INFO  11:32:31,978 ProgressMeter -      8:35385558   4047068.0    90.0 s      22.0 s       46.1%     3.3 m     105.0 s 
+INFO  11:33:02,049 ProgressMeter -      12:5637810   5509833.0   120.0 s      21.0 s       63.2%     3.2 m      69.0 s 
+INFO  11:33:32,050 ProgressMeter -     17:21531069   7025144.0     2.5 m      21.0 s       81.5%     3.1 m      34.0 s 
+INFO  11:33:59,760 SelectVariants - 5739851 records processed. 
+INFO  11:34:00,518 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:34:00,518 ProgressMeter - Total runtime 178.85 secs, 2.98 min, 0.05 hours 
+INFO  11:34:05,613 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:34:09,913 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:34:09,914 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:34:09,915 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:34:09,915 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:34:09,917 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVSCA1.vcf -sn EWSEVSCA1 
+INFO  11:34:09,931 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:34:09,932 HelpFormatter - Date/Time: 2019/09/25 11:34:09 
+INFO  11:34:09,932 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:34:09,933 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:34:10,153 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:34:10,252 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:34:10,438 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:34:10,446 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:34:10,446 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:34:10,447 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:34:10,447 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:34:10,451 SelectVariants - Including sample 'EWSEVSCA1' 
+INFO  11:34:40,511 ProgressMeter -     2:132771319   1027942.0    30.0 s      29.0 s       12.3%     4.1 m       3.6 m 
+INFO  11:35:10,513 ProgressMeter -       5:7952808   2475906.0    60.0 s      24.0 s       28.7%     3.5 m       2.5 m 
+INFO  11:35:40,515 ProgressMeter -      8:12086932   3971404.0    90.0 s      22.0 s       45.4%     3.3 m     108.0 s 
+INFO  11:36:10,516 ProgressMeter -    11:132689987   5483616.0   120.0 s      21.0 s       62.9%     3.2 m      70.0 s 
+INFO  11:36:40,518 ProgressMeter -      17:6230176   6978032.0     2.5 m      21.0 s       81.0%     3.1 m      35.0 s 
+INFO  11:37:08,594 SelectVariants - 5739851 records processed. 
+INFO  11:37:09,353 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:37:09,354 ProgressMeter - Total runtime 178.91 secs, 2.98 min, 0.05 hours 
+INFO  11:37:14,783 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:37:18,031 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:37:18,034 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:37:18,034 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:37:18,034 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:37:18,037 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVSCA3.vcf -sn EWSEVSCA3 
+INFO  11:37:18,051 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:37:18,052 HelpFormatter - Date/Time: 2019/09/25 11:37:18 
+INFO  11:37:18,052 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:37:18,052 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:37:18,285 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:37:18,369 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:37:18,560 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:37:18,568 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:37:18,568 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:37:18,569 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:37:18,569 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:37:18,573 SelectVariants - Including sample 'EWSEVSCA3' 
+INFO  11:37:48,638 ProgressMeter -     2:106386693    961429.0    30.0 s      31.0 s       11.5%     4.4 m       3.9 m 
+INFO  11:38:18,702 ProgressMeter -     4:171093571   2355332.0    60.0 s      25.0 s       27.8%     3.6 m       2.6 m 
+INFO  11:38:48,782 ProgressMeter -     7:157800765   3893248.0    90.0 s      23.0 s       44.9%     3.3 m     110.0 s 
+INFO  11:39:18,820 ProgressMeter -     11:99264902   5391756.0   120.0 s      22.0 s       61.9%     3.2 m      73.0 s 
+INFO  11:39:48,822 ProgressMeter -     16:81317854   6905427.0     2.5 m      21.0 s       80.5%     3.1 m      36.0 s 
+INFO  11:40:17,941 SelectVariants - 5739851 records processed. 
+INFO  11:40:18,602 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:40:18,603 ProgressMeter - Total runtime 180.03 secs, 3.00 min, 0.05 hours 
+INFO  11:40:23,488 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:40:26,585 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:40:26,587 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:40:26,587 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:40:26,587 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:40:26,591 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0161.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVSCB3.vcf -sn EWSEVSCB3 
+INFO  11:40:26,606 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:40:26,607 HelpFormatter - Date/Time: 2019/09/25 11:40:26 
+INFO  11:40:26,607 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:40:26,607 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:40:26,825 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:40:26,921 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:40:27,117 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:40:27,125 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:40:27,126 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:40:27,126 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:40:27,126 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:40:27,137 SelectVariants - Including sample 'EWSEVSCB3' 
+INFO  11:40:57,364 ProgressMeter -     2:123104622   1004951.0    30.0 s      30.0 s       12.0%     4.2 m       3.7 m 
+INFO  11:41:27,559 ProgressMeter -      5:14044864   2498148.0    60.0 s      24.0 s       28.9%     3.5 m       2.5 m 
+INFO  11:41:57,560 ProgressMeter -      8:38488058   4052107.0    90.0 s      22.0 s       46.2%     3.2 m     104.0 s 
+INFO  11:42:27,824 ProgressMeter -     12:11288757   5533509.0   120.0 s      21.0 s       63.4%     3.2 m      69.0 s 
+INFO  11:42:57,826 ProgressMeter -     17:34361870   7061832.0     2.5 m      21.0 s       81.9%     3.1 m      33.0 s 
+INFO  11:43:24,275 SelectVariants - 5739851 records processed. 
+INFO  11:43:24,834 ProgressMeter -            done   8439815.0     3.0 m      21.0 s      100.0%     3.0 m       0.0 s 
+INFO  11:43:24,834 ProgressMeter - Total runtime 177.71 secs, 2.96 min, 0.05 hours 
+INFO  11:43:29,554 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:43:32,897 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:43:32,902 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:43:32,903 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:43:32,903 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:43:32,907 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVCLONEHA1.vcf -sn EWSEVCLONEHA1 
+INFO  11:43:32,916 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:43:32,917 HelpFormatter - Date/Time: 2019/09/25 11:43:32 
+INFO  11:43:32,917 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:43:32,917 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:43:33,151 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:43:33,248 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:44:41,379 RMDTrackBuilder - Writing Tribble index to disk for file /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.idx 
+INFO  11:44:56,526 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:44:56,534 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:44:56,535 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:44:56,535 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:44:56,535 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:44:56,541 SelectVariants - Including sample 'EWSEVCLONEHA1' 
+INFO  11:45:26,555 ProgressMeter -      2:99783330   1188976.0    30.0 s      25.0 s       11.3%     4.4 m       3.9 m 
+INFO  11:45:56,557 ProgressMeter -      4:88976593   2694118.0    60.0 s      22.0 s       25.2%     4.0 m       3.0 m 
+INFO  11:46:26,559 ProgressMeter -     6:157734430   4243293.0    90.0 s      21.0 s       39.4%     3.8 m       2.3 m 
+INFO  11:46:56,560 ProgressMeter -     9:104787152   5806497.0   120.0 s      20.0 s       53.1%     3.8 m     105.0 s 
+INFO  11:47:26,563 ProgressMeter -    12:106597003   7319410.0     2.5 m      20.0 s       66.5%     3.8 m      75.0 s 
+INFO  11:47:56,641 ProgressMeter -     17:13567517   8857912.0     3.0 m      20.0 s       81.2%     3.7 m      41.0 s 
+INFO  11:48:26,642 ProgressMeter -      X:81651368   1.0452132E7     3.5 m      20.0 s       95.7%     3.7 m       9.0 s 
+INFO  11:48:30,812 SelectVariants - 7281880 records processed. 
+INFO  11:48:31,161 ProgressMeter -            done   1.0671653E7     3.6 m      20.0 s      100.0%     3.6 m       0.0 s 
+INFO  11:48:31,162 ProgressMeter - Total runtime 214.63 secs, 3.58 min, 0.06 hours 
+INFO  11:48:34,410 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:48:37,313 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:48:37,315 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:48:37,315 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:48:37,315 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:48:37,319 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/EWSEVCLONEHA1SUBCLONE3.vcf -sn EWSEVCLONEHA1SUBCLONE3 
+INFO  11:48:37,330 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:48:37,330 HelpFormatter - Date/Time: 2019/09/25 11:48:37 
+INFO  11:48:37,330 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:48:37,331 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:48:37,534 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:48:37,619 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:48:37,805 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:48:37,813 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:48:37,813 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:48:37,813 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:48:37,814 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:48:37,817 SelectVariants - Including sample 'EWSEVCLONEHA1SUBCLONE3' 
+INFO  11:49:07,838 ProgressMeter -      2:50451831   1014325.0    30.0 s      29.0 s        9.7%     5.2 m       4.7 m 
+INFO  11:49:37,870 ProgressMeter -      4:31099264   2476207.0    60.0 s      24.0 s       23.3%     4.3 m       3.3 m 
+INFO  11:50:07,996 ProgressMeter -      6:92660599   4044177.0    90.0 s      22.0 s       37.3%     4.0 m       2.5 m 
+INFO  11:50:38,231 ProgressMeter -      9:38646560   5593893.0   120.0 s      21.0 s       51.0%     3.9 m     115.0 s 
+INFO  11:51:08,232 ProgressMeter -     12:40976322   7106433.0     2.5 m      21.0 s       64.3%     3.9 m      83.0 s 
+INFO  11:51:38,237 ProgressMeter -     16:61241461   8665244.0     3.0 m      20.0 s       79.8%     3.8 m      45.0 s 
+INFO  11:52:08,348 ProgressMeter -     22:44265631   1.0246594E7     3.5 m      20.0 s       92.8%     3.8 m      16.0 s 
+INFO  11:52:15,631 SelectVariants - 7281880 records processed. 
+INFO  11:52:16,060 ProgressMeter -            done   1.0671653E7     3.6 m      20.0 s      100.0%     3.6 m       0.0 s 
+INFO  11:52:16,061 ProgressMeter - Total runtime 218.25 secs, 3.64 min, 0.06 hours 
+INFO  11:52:21,036 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:52:24,175 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:52:24,177 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:52:24,177 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:52:24,177 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:52:24,179 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/MASEVCLONEH2.vcf -sn MASEVCLONEH2 
+INFO  11:52:24,192 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:52:24,192 HelpFormatter - Date/Time: 2019/09/25 11:52:24 
+INFO  11:52:24,192 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:52:24,193 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:52:24,414 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:52:24,504 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:52:24,705 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:52:24,712 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:52:24,713 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:52:24,713 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:52:24,713 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:52:24,717 SelectVariants - Including sample 'MASEVCLONEH2' 
+INFO  11:52:54,720 ProgressMeter -      2:50631292   1014325.0    30.0 s      29.0 s        9.7%     5.2 m       4.7 m 
+INFO  11:53:25,042 ProgressMeter -      4:28258200   2465732.0    60.0 s      24.0 s       23.2%     4.3 m       3.3 m 
+INFO  11:53:55,043 ProgressMeter -      6:87830001   4027692.0    90.0 s      22.0 s       37.2%     4.0 m       2.5 m 
+INFO  11:54:25,124 ProgressMeter -      9:68473812   5654939.0   120.0 s      21.0 s       51.9%     3.9 m     111.0 s 
+INFO  11:54:55,125 ProgressMeter -     12:67216111   7196711.0     2.5 m      20.0 s       65.2%     3.8 m      80.0 s 
+INFO  11:55:25,580 ProgressMeter -     16:74755511   8707537.0     3.0 m      20.0 s       80.3%     3.7 m      44.0 s 
+INFO  11:55:55,674 ProgressMeter -     22:42036374   1.0238371E7     3.5 m      20.0 s       92.8%     3.8 m      16.0 s 
+INFO  11:56:03,945 SelectVariants - 7281880 records processed. 
+INFO  11:56:04,615 ProgressMeter -            done   1.0671653E7     3.7 m      20.0 s      100.0%     3.7 m       0.0 s 
+INFO  11:56:04,616 ProgressMeter - Total runtime 219.90 secs, 3.67 min, 0.06 hours 
+INFO  11:56:09,609 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:56:12,473 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:56:12,475 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  11:56:12,476 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:56:12,476 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:56:12,479 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/MASEVCLONEH2SUBCLONE2.vcf -sn MASEVCLONEH2SUBCLONE2 
+INFO  11:56:12,488 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  11:56:12,488 HelpFormatter - Date/Time: 2019/09/25 11:56:12 
+INFO  11:56:12,488 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:56:12,488 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:56:12,712 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:56:12,808 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  11:56:12,991 GenomeAnalysisEngine - Preparing for traversal 
+INFO  11:56:13,002 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  11:56:13,002 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  11:56:13,003 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  11:56:13,005 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  11:56:13,009 SelectVariants - Including sample 'MASEVCLONEH2SUBCLONE2' 
+INFO  11:56:43,076 ProgressMeter -      2:48031690   1007115.0    30.0 s      29.0 s        9.6%     5.2 m       4.7 m 
+INFO  11:57:13,077 ProgressMeter -      4:21631658   2440415.0    60.0 s      24.0 s       23.0%     4.3 m       3.3 m 
+INFO  11:57:43,079 ProgressMeter -      6:54170056   3910174.0    90.0 s      23.0 s       36.1%     4.2 m       2.7 m 
+INFO  11:58:13,213 ProgressMeter -       9:3647615   5463921.0   120.0 s      22.0 s       49.8%     4.0 m     120.0 s 
+INFO  11:58:43,214 ProgressMeter -      12:7281652   6984130.0     2.5 m      21.0 s       63.3%     4.0 m      87.0 s 
+INFO  11:59:13,354 ProgressMeter -     16:14685894   8499645.0     3.0 m      21.0 s       78.3%     3.8 m      49.0 s 
+INFO  11:59:43,483 ProgressMeter -     21:33396886   1.0051112E7     3.5 m      20.0 s       90.9%     3.8 m      20.0 s 
+INFO  11:59:55,030 SelectVariants - 7281880 records processed. 
+INFO  11:59:55,388 ProgressMeter -            done   1.0671653E7     3.7 m      20.0 s      100.0%     3.7 m       0.0 s 
+INFO  11:59:55,388 ProgressMeter - Total runtime 222.39 secs, 3.71 min, 0.06 hours 
+INFO  12:00:01,108 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:00:04,375 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:00:04,378 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:00:04,378 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:00:04,378 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:00:04,381 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/MASEVCLONEN4.vcf -sn MASEVCLONEN4 
+INFO  12:00:04,392 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:00:04,392 HelpFormatter - Date/Time: 2019/09/25 12:00:04 
+INFO  12:00:04,392 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:00:04,393 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:00:04,625 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:00:04,718 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:00:04,917 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:00:04,925 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:00:04,925 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:00:04,926 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:00:04,926 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:00:04,930 SelectVariants - Including sample 'MASEVCLONEN4' 
+INFO  12:00:34,932 ProgressMeter -      2:49469442   1010494.0    30.0 s      29.0 s        9.6%     5.2 m       4.7 m 
+INFO  12:01:05,064 ProgressMeter -      4:24069837   2451829.0    60.0 s      24.0 s       23.1%     4.3 m       3.3 m 
+INFO  12:01:35,065 ProgressMeter -      6:71977358   3974460.0    90.0 s      22.0 s       36.6%     4.1 m       2.6 m 
+INFO  12:02:05,066 ProgressMeter -      9:25127661   5545849.0   120.0 s      21.0 s       50.5%     4.0 m     117.0 s 
+INFO  12:02:35,265 ProgressMeter -     12:43967677   7119128.0     2.5 m      21.0 s       64.4%     3.9 m      82.0 s 
+INFO  12:03:05,274 ProgressMeter -     16:56975774   8646364.0     3.0 m      20.0 s       79.7%     3.8 m      45.0 s 
+INFO  12:03:35,485 ProgressMeter -     22:28393540   1.0188785E7     3.5 m      20.0 s       92.3%     3.8 m      17.0 s 
+INFO  12:03:44,482 SelectVariants - 7281880 records processed. 
+INFO  12:03:45,019 ProgressMeter -            done   1.0671653E7     3.7 m      20.0 s      100.0%     3.7 m       0.0 s 
+INFO  12:03:45,019 ProgressMeter - Total runtime 220.09 secs, 3.67 min, 0.06 hours 
+INFO  12:03:50,848 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:03:54,382 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:03:54,387 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:03:54,387 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:03:54,387 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:03:54,391 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/MASEVCLONEN4SUBCLONE1.vcf -sn MASEVCLONEN4SUBCLONE1 
+INFO  12:03:54,400 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:03:54,401 HelpFormatter - Date/Time: 2019/09/25 12:03:54 
+INFO  12:03:54,401 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:03:54,401 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:03:54,634 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:03:54,734 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:03:54,922 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:03:54,928 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:03:54,928 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:03:54,928 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:03:54,929 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:03:54,932 SelectVariants - Including sample 'MASEVCLONEN4SUBCLONE1' 
+INFO  12:04:25,137 ProgressMeter -      2:50818406   1014325.0    30.0 s      29.0 s        9.7%     5.2 m       4.7 m 
+INFO  12:04:55,139 ProgressMeter -      4:17728797   2427368.0    60.0 s      24.0 s       22.9%     4.4 m       3.4 m 
+INFO  12:05:25,140 ProgressMeter -      6:57459087   3919287.0    90.0 s      23.0 s       36.2%     4.1 m       2.6 m 
+INFO  12:05:55,142 ProgressMeter -       9:3341657   5463921.0   120.0 s      22.0 s       49.8%     4.0 m     120.0 s 
+INFO  12:06:25,181 ProgressMeter -      12:6928747   6979903.0     2.5 m      21.0 s       63.2%     4.0 m      87.0 s 
+INFO  12:06:55,184 ProgressMeter -      16:9106828   8475508.0     3.0 m      21.0 s       78.1%     3.8 m      50.0 s 
+INFO  12:07:25,185 ProgressMeter -     21:22676648   1.0009742E7     3.5 m      21.0 s       90.6%     3.9 m      21.0 s 
+INFO  12:07:37,056 SelectVariants - 7281880 records processed. 
+INFO  12:07:37,783 ProgressMeter -            done   1.0671653E7     3.7 m      20.0 s      100.0%     3.7 m       0.0 s 
+INFO  12:07:37,783 ProgressMeter - Total runtime 222.86 secs, 3.71 min, 0.06 hours 
+INFO  12:07:43,378 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:07:46,619 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:07:46,622 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:07:46,622 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:07:46,622 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:07:46,624 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/HMFreg0498_UMCU-002-063_ekuijk.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/MASEVREFERENCE.vcf -sn MASEVREFERENCE 
+INFO  12:07:46,640 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:07:46,641 HelpFormatter - Date/Time: 2019/09/25 12:07:46 
+INFO  12:07:46,641 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:07:46,641 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:07:46,884 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:07:46,982 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:07:47,177 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:07:47,182 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:07:47,183 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:07:47,183 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:07:47,183 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:07:47,187 SelectVariants - Including sample 'MASEVREFERENCE' 
+INFO  12:08:17,192 ProgressMeter -      2:51509420   1017416.0    30.0 s      29.0 s        9.7%     5.1 m       4.6 m 
+INFO  12:08:47,199 ProgressMeter -      4:31990350   2476207.0    60.0 s      24.0 s       23.3%     4.3 m       3.3 m 
+INFO  12:09:17,200 ProgressMeter -      6:91938455   4041205.0    90.0 s      22.0 s       37.3%     4.0 m       2.5 m 
+INFO  12:09:47,202 ProgressMeter -      9:66465534   5634087.0   120.0 s      21.0 s       51.9%     3.9 m     111.0 s 
+INFO  12:10:17,204 ProgressMeter -     12:44801463   7122207.0     2.5 m      21.0 s       64.5%     3.9 m      82.0 s 
+INFO  12:10:47,253 ProgressMeter -     16:69124622   8688946.0     3.0 m      20.0 s       80.1%     3.7 m      44.0 s 
+INFO  12:11:17,254 ProgressMeter -        X:991916   1.028725E7     3.5 m      20.0 s       93.1%     3.8 m      15.0 s 
+INFO  12:11:23,836 SelectVariants - 7281880 records processed. 
+INFO  12:11:24,337 ProgressMeter -            done   1.0671653E7     3.6 m      20.0 s      100.0%     3.6 m       0.0 s 
+INFO  12:11:24,338 ProgressMeter - Total runtime 217.15 secs, 3.62 min, 0.06 hours 
+INFO  12:11:30,136 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:11:32,957 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:11:32,959 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:11:32,959 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:11:32,960 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:11:32,963 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072Blood.vcf -sn STE0072Blood 
+INFO  12:11:32,975 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:11:32,975 HelpFormatter - Date/Time: 2019/09/25 12:11:32 
+INFO  12:11:32,975 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:11:32,975 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:11:33,211 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:11:33,296 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:12:28,057 RMDTrackBuilder - Writing Tribble index to disk for file /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.idx 
+INFO  12:12:43,107 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:12:43,121 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:12:43,121 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:12:43,122 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:12:43,122 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:12:43,126 SelectVariants - Including sample 'STE0072Blood' 
+INFO  12:13:13,138 ProgressMeter -     2:231850178   1153807.0    30.0 s      26.0 s       15.5%     3.2 m       2.7 m 
+INFO  12:13:43,144 ProgressMeter -     5:152048813   2537062.0    60.0 s      23.0 s       33.4%     3.0 m     119.0 s 
+INFO  12:14:13,145 ProgressMeter -      9:66522737   3983335.0    90.0 s      22.0 s       51.9%     2.9 m      83.0 s 
+INFO  12:14:43,196 ProgressMeter -     13:96725037   5444303.0   120.0 s      22.0 s       70.5%     2.8 m      50.0 s 
+INFO  12:15:13,197 ProgressMeter -      20:9745450   6838753.0     2.5 m      21.0 s       88.1%     2.8 m      20.0 s 
+INFO  12:15:27,462 SelectVariants - 5408513 records processed. 
+INFO  12:15:27,966 ProgressMeter -            done   7571672.0     2.7 m      21.0 s      100.0%     2.7 m       0.0 s 
+INFO  12:15:27,966 ProgressMeter - Total runtime 164.85 secs, 2.75 min, 0.05 hours 
+INFO  12:15:30,967 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:15:34,784 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:15:34,786 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:15:34,787 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:15:34,787 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:15:34,790 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072C12.vcf -sn STE0072C12 
+INFO  12:15:34,807 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:15:34,807 HelpFormatter - Date/Time: 2019/09/25 12:15:34 
+INFO  12:15:34,807 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:15:34,807 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:15:35,012 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:15:35,091 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:15:35,282 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:15:35,290 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:15:35,290 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:15:35,290 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:15:35,291 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:15:35,294 SelectVariants - Including sample 'STE0072C12' 
+INFO  12:16:05,557 ProgressMeter -     2:155960015    982843.0    30.0 s      30.0 s       13.1%     3.8 m       3.3 m 
+INFO  12:16:35,559 ProgressMeter -      5:86987453   2402270.0    60.0 s      25.0 s       31.3%     3.2 m       2.2 m 
+INFO  12:17:05,561 ProgressMeter -     8:144395533   3849612.0    90.0 s      23.0 s       49.7%     3.0 m      91.0 s 
+INFO  12:17:35,588 ProgressMeter -     13:40097684   5305081.0   120.0 s      22.0 s       68.6%     2.9 m      54.0 s 
+INFO  12:18:05,589 ProgressMeter -     19:46847665   6767508.0     2.5 m      22.0 s       87.4%     2.9 m      21.0 s 
+INFO  12:18:21,327 SelectVariants - 5408513 records processed. 
+INFO  12:18:21,808 ProgressMeter -            done   7571672.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:18:21,808 ProgressMeter - Total runtime 166.52 secs, 2.78 min, 0.05 hours 
+INFO  12:18:25,897 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:18:28,777 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:18:28,779 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:18:28,779 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:18:28,779 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:18:28,784 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072C23.vcf -sn STE0072C23 
+INFO  12:18:28,794 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:18:28,794 HelpFormatter - Date/Time: 2019/09/25 12:18:28 
+INFO  12:18:28,794 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:18:28,795 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:18:28,997 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:18:29,090 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:18:29,279 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:18:29,290 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:18:29,290 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:18:29,290 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:18:29,290 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:18:29,294 SelectVariants - Including sample 'STE0072C23' 
+INFO  12:18:59,634 ProgressMeter -     2:162400880    997953.0    30.0 s      30.0 s       13.3%     3.8 m       3.3 m 
+INFO  12:19:29,638 ProgressMeter -     5:104058795   2434328.0    60.0 s      24.0 s       31.8%     3.1 m       2.1 m 
+INFO  12:19:59,771 ProgressMeter -      9:12962833   3891408.0    90.0 s      23.0 s       50.1%     3.0 m      89.0 s 
+INFO  12:20:29,774 ProgressMeter -     13:42988846   5310533.0   120.0 s      22.0 s       68.7%     2.9 m      54.0 s 
+INFO  12:21:00,014 ProgressMeter -     19:54220709   6794696.0     2.5 m      22.0 s       87.7%     2.9 m      21.0 s 
+INFO  12:21:15,195 SelectVariants - 5408513 records processed. 
+INFO  12:21:15,580 ProgressMeter -            done   7571672.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:21:15,581 ProgressMeter - Total runtime 166.29 secs, 2.77 min, 0.05 hours 
+INFO  12:21:20,912 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:21:23,949 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:21:23,951 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:21:23,951 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:21:23,951 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:21:23,956 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072C31.vcf -sn STE0072C31 
+INFO  12:21:23,971 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:21:23,971 HelpFormatter - Date/Time: 2019/09/25 12:21:23 
+INFO  12:21:23,971 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:21:23,972 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:21:24,203 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:21:24,297 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:21:24,485 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:21:24,499 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:21:24,499 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:21:24,499 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:21:24,500 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:21:24,503 SelectVariants - Including sample 'STE0072C31' 
+INFO  12:21:54,861 ProgressMeter -     2:141903492    951450.0    30.0 s      31.0 s       12.6%     4.0 m       3.5 m 
+INFO  12:22:25,151 ProgressMeter -      5:73960992   2369235.0    60.0 s      25.0 s       30.9%     3.2 m       2.2 m 
+INFO  12:22:55,181 ProgressMeter -     8:128997110   3804700.0    90.0 s      23.0 s       49.2%     3.1 m      93.0 s 
+INFO  12:23:25,182 ProgressMeter -     13:23449346   5257322.0   120.0 s      22.0 s       68.1%     2.9 m      56.0 s 
+INFO  12:23:55,207 ProgressMeter -     19:22959237   6706341.0     2.5 m      22.0 s       86.6%     2.9 m      23.0 s 
+INFO  12:24:12,556 SelectVariants - 5408513 records processed. 
+INFO  12:24:13,191 ProgressMeter -            done   7571672.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:24:13,191 ProgressMeter - Total runtime 168.69 secs, 2.81 min, 0.05 hours 
+INFO  12:24:16,920 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:24:20,165 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:24:20,167 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:24:20,167 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:24:20,167 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:24:20,171 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072SC12A.vcf -sn STE0072SC12A 
+INFO  12:24:20,186 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:24:20,186 HelpFormatter - Date/Time: 2019/09/25 12:24:20 
+INFO  12:24:20,186 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:24:20,186 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:24:20,395 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:24:20,487 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:24:20,691 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:24:20,699 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:24:20,700 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:24:20,700 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:24:20,700 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:24:20,704 SelectVariants - Including sample 'STE0072SC12A' 
+INFO  12:24:50,916 ProgressMeter -     2:138969619    944021.0    30.0 s      32.0 s       12.5%     4.0 m       3.5 m 
+INFO  12:25:20,935 ProgressMeter -      5:39359276   2301740.0    60.0 s      26.0 s       29.8%     3.4 m       2.4 m 
+INFO  12:25:51,081 ProgressMeter -      8:99948153   3746831.0    90.0 s      24.0 s       48.2%     3.1 m      96.0 s 
+INFO  12:26:21,238 ProgressMeter -    12:119031993   5194363.0   120.0 s      23.0 s       66.9%     3.0 m      59.0 s 
+INFO  12:26:51,240 ProgressMeter -     19:10928895   6666825.0     2.5 m      22.0 s       86.3%     2.9 m      23.0 s 
+INFO  12:27:09,343 SelectVariants - 5408513 records processed. 
+INFO  12:27:09,676 ProgressMeter -            done   7571672.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:27:09,676 ProgressMeter - Total runtime 168.98 secs, 2.82 min, 0.05 hours 
+INFO  12:27:14,487 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:27:17,491 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:27:17,493 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:27:17,493 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:27:17,493 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:27:17,497 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072SC23B.vcf -sn STE0072SC23B 
+INFO  12:27:17,508 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:27:17,508 HelpFormatter - Date/Time: 2019/09/25 12:27:17 
+INFO  12:27:17,508 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:27:17,509 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:27:17,719 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:27:17,819 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:27:18,004 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:27:18,010 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:27:18,010 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:27:18,010 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:27:18,011 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:27:18,017 SelectVariants - Including sample 'STE0072SC23B' 
+INFO  12:27:48,017 ProgressMeter -     2:162929554    997953.0    30.0 s      30.0 s       13.3%     3.8 m       3.3 m 
+INFO  12:28:18,034 ProgressMeter -      5:92658414   2411124.0    60.0 s      24.0 s       31.5%     3.2 m       2.2 m 
+INFO  12:28:48,102 ProgressMeter -       9:7031919   3876627.0    90.0 s      23.0 s       49.9%     3.0 m      90.0 s 
+INFO  12:29:18,104 ProgressMeter -     13:48578190   5324239.0   120.0 s      22.0 s       68.9%     2.9 m      54.0 s 
+INFO  12:29:48,161 ProgressMeter -     19:46906524   6767508.0     2.5 m      22.0 s       87.4%     2.9 m      21.0 s 
+INFO  12:30:04,356 SelectVariants - 5408513 records processed. 
+INFO  12:30:04,950 ProgressMeter -            done   7571672.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:30:04,950 ProgressMeter - Total runtime 166.94 secs, 2.78 min, 0.05 hours 
+INFO  12:30:08,773 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:30:12,287 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:30:12,290 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:30:12,290 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:30:12,290 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:30:12,294 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0072.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0072SC31A.vcf -sn STE0072SC31A 
+INFO  12:30:12,313 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:30:12,313 HelpFormatter - Date/Time: 2019/09/25 12:30:12 
+INFO  12:30:12,313 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:30:12,314 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:30:12,543 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:30:12,635 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:30:12,825 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:30:12,832 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:30:12,837 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:30:12,837 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:30:12,837 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:30:12,841 SelectVariants - Including sample 'STE0072SC31A' 
+INFO  12:30:43,134 ProgressMeter -     2:129330729    910735.0    30.0 s      33.0 s       12.2%     4.1 m       3.6 m 
+INFO  12:31:13,135 ProgressMeter -      5:46153911   2315690.0    60.0 s      26.0 s       30.0%     3.3 m       2.3 m 
+INFO  12:31:43,143 ProgressMeter -      8:96580478   3740213.0    90.0 s      24.0 s       48.1%     3.1 m      97.0 s 
+INFO  12:32:13,193 ProgressMeter -     12:95629435   5141634.0   120.0 s      23.0 s       66.1%     3.0 m      61.0 s 
+INFO  12:32:43,195 ProgressMeter -     18:53651177   6558241.0     2.5 m      22.0 s       85.1%     2.9 m      26.0 s 
+INFO  12:33:03,087 SelectVariants - 5408513 records processed. 
+INFO  12:33:03,605 ProgressMeter -            done   7571672.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:33:03,605 ProgressMeter - Total runtime 170.77 secs, 2.85 min, 0.05 hours 
+INFO  12:33:07,968 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:33:11,008 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:33:11,010 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:33:11,011 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:33:11,011 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:33:11,014 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076Blood.vcf -sn STE0076Blood 
+INFO  12:33:11,037 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:33:11,037 HelpFormatter - Date/Time: 2019/09/25 12:33:11 
+INFO  12:33:11,037 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:33:11,038 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:33:11,262 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:33:11,353 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:34:00,559 RMDTrackBuilder - Writing Tribble index to disk for file /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf.idx 
+INFO  12:34:15,995 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:34:16,003 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:34:16,003 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:34:16,004 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:34:16,004 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:34:16,008 SelectVariants - Including sample 'STE0076Blood' 
+INFO  12:34:46,017 ProgressMeter -     2:204966592   1107303.0    30.0 s      27.0 s       14.7%     3.4 m       2.9 m 
+INFO  12:35:16,023 ProgressMeter -     5:111152852   2495946.0    60.0 s      24.0 s       32.1%     3.1 m       2.1 m 
+INFO  12:35:46,167 ProgressMeter -       9:6770215   3936254.0    90.0 s      22.0 s       49.9%     3.0 m      90.0 s 
+INFO  12:36:16,173 ProgressMeter -     13:44930919   5408374.0   120.0 s      22.0 s       68.8%     2.9 m      54.0 s 
+INFO  12:36:46,270 ProgressMeter -     19:51499987   6869896.0     2.5 m      21.0 s       87.6%     2.9 m      21.0 s 
+INFO  12:37:01,945 SelectVariants - 5438034 records processed. 
+INFO  12:37:02,432 ProgressMeter -            done   7664099.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:37:02,432 ProgressMeter - Total runtime 166.43 secs, 2.77 min, 0.05 hours 
+INFO  12:37:05,650 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:37:08,704 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:37:08,707 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:37:08,707 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:37:08,707 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:37:08,710 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076C12.vcf -sn STE0076C12 
+INFO  12:37:08,725 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:37:08,725 HelpFormatter - Date/Time: 2019/09/25 12:37:08 
+INFO  12:37:08,725 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:37:08,725 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:37:08,948 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:37:09,035 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:37:09,227 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:37:09,236 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:37:09,236 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:37:09,237 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:37:09,237 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:37:09,241 SelectVariants - Including sample 'STE0076C12' 
+INFO  12:37:39,495 ProgressMeter -     2:172511163   1036447.0    30.0 s      29.0 s       13.6%     3.7 m       3.2 m 
+INFO  12:38:09,673 ProgressMeter -     5:106303607   2484809.0    60.0 s      24.0 s       31.9%     3.1 m       2.1 m 
+INFO  12:38:39,675 ProgressMeter -      9:11523070   3951625.0    90.0 s      22.0 s       50.1%     3.0 m      89.0 s 
+INFO  12:39:09,676 ProgressMeter -     13:61834014   5448562.0   120.0 s      22.0 s       69.3%     2.9 m      53.0 s 
+INFO  12:39:39,677 ProgressMeter -       20:840951   6901354.0     2.5 m      21.0 s       87.8%     2.8 m      20.0 s 
+INFO  12:39:53,900 SelectVariants - 5438034 records processed. 
+INFO  12:39:54,581 ProgressMeter -            done   7664099.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:39:54,581 ProgressMeter - Total runtime 165.34 secs, 2.76 min, 0.05 hours 
+INFO  12:39:58,686 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:40:01,859 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:40:01,864 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:40:01,864 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:40:01,864 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:40:01,868 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076C23.vcf -sn STE0076C23 
+INFO  12:40:01,885 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:40:01,887 HelpFormatter - Date/Time: 2019/09/25 12:40:01 
+INFO  12:40:01,887 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:40:01,887 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:40:02,114 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:40:02,206 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:40:02,394 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:40:02,400 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:40:02,401 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:40:02,401 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:40:02,401 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:40:02,408 SelectVariants - Including sample 'STE0076C23' 
+INFO  12:40:32,419 ProgressMeter -     2:148918074    983174.0    30.0 s      30.0 s       12.9%     3.9 m       3.4 m 
+INFO  12:41:02,423 ProgressMeter -      5:61959339   2391538.0    60.0 s      25.0 s       30.5%     3.3 m       2.3 m 
+INFO  12:41:32,425 ProgressMeter -     8:125584744   3861146.0    90.0 s      23.0 s       49.0%     3.1 m      93.0 s 
+INFO  12:42:02,494 ProgressMeter -     13:24940494   5352026.0   120.0 s      22.0 s       68.1%     2.9 m      56.0 s 
+INFO  12:42:32,498 ProgressMeter -     19:42305941   6846547.0     2.5 m      21.0 s       87.3%     2.9 m      21.0 s 
+INFO  12:42:48,069 SelectVariants - 5438034 records processed. 
+INFO  12:42:48,731 ProgressMeter -            done   7664099.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:42:48,732 ProgressMeter - Total runtime 166.33 secs, 2.77 min, 0.05 hours 
+INFO  12:42:52,734 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:42:56,213 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:42:56,224 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:42:56,224 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:42:56,224 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:42:56,229 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076C32.vcf -sn STE0076C32 
+INFO  12:42:56,243 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:42:56,244 HelpFormatter - Date/Time: 2019/09/25 12:42:56 
+INFO  12:42:56,244 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:42:56,244 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:42:56,467 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:42:56,554 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:42:56,739 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:42:56,751 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:42:56,752 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:42:56,752 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:42:56,752 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:42:56,756 SelectVariants - Including sample 'STE0076C32' 
+INFO  12:43:26,767 ProgressMeter -     2:153427476    994185.0    30.0 s      30.0 s       13.0%     3.8 m       3.3 m 
+INFO  12:43:56,768 ProgressMeter -      5:45986851   2357314.0    60.0 s      25.0 s       30.0%     3.3 m       2.3 m 
+INFO  12:44:26,838 ProgressMeter -     8:102807214   3812966.0    90.0 s      23.0 s       48.3%     3.1 m      96.0 s 
+INFO  12:44:56,839 ProgressMeter -    12:113000437   5269584.0   120.0 s      22.0 s       66.7%     3.0 m      59.0 s 
+INFO  12:45:26,841 ProgressMeter -     18:77855366   6715131.0     2.5 m      22.0 s       85.9%     2.9 m      24.0 s 
+INFO  12:45:45,438 SelectVariants - 5438034 records processed. 
+INFO  12:45:45,751 ProgressMeter -            done   7664099.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:45:45,751 ProgressMeter - Total runtime 169.00 secs, 2.82 min, 0.05 hours 
+INFO  12:45:50,829 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:45:54,520 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:45:54,525 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:45:54,526 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:45:54,526 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:45:54,529 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076SC12C.vcf -sn STE0076SC12C 
+INFO  12:45:54,553 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:45:54,554 HelpFormatter - Date/Time: 2019/09/25 12:45:54 
+INFO  12:45:54,554 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:45:54,554 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:45:54,786 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:45:54,866 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:45:55,054 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:45:55,062 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:45:55,063 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:45:55,063 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:45:55,063 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:45:55,067 SelectVariants - Including sample 'STE0076SC12C' 
+INFO  12:46:25,243 ProgressMeter -     2:130796183    931940.0    30.0 s      32.0 s       12.3%     4.1 m       3.6 m 
+INFO  12:46:55,245 ProgressMeter -      5:11847254   2266638.0    60.0 s      26.0 s       28.9%     3.5 m       2.5 m 
+INFO  12:47:25,251 ProgressMeter -      8:50655314   3705734.0    90.0 s      24.0 s       46.6%     3.2 m     103.0 s 
+INFO  12:47:55,252 ProgressMeter -     12:65175493   5165124.0   120.0 s      23.0 s       65.1%     3.1 m      64.0 s 
+INFO  12:48:25,254 ProgressMeter -     18:25058248   6582581.0     2.5 m      22.0 s       84.2%     3.0 m      28.0 s 
+INFO  12:48:47,356 SelectVariants - 5438034 records processed. 
+INFO  12:48:47,840 ProgressMeter -            done   7664099.0     2.9 m      22.0 s      100.0%     2.9 m       0.0 s 
+INFO  12:48:47,840 ProgressMeter - Total runtime 172.78 secs, 2.88 min, 0.05 hours 
+INFO  12:48:52,140 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:48:57,513 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:48:57,515 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:48:57,516 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:48:57,516 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:48:57,519 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076SC23A.vcf -sn STE0076SC23A 
+INFO  12:48:57,552 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:48:57,552 HelpFormatter - Date/Time: 2019/09/25 12:48:57 
+INFO  12:48:57,552 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:48:57,552 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:48:57,773 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:48:57,872 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:48:58,045 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:48:58,051 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:48:58,052 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:48:58,052 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:48:58,052 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:48:58,056 SelectVariants - Including sample 'STE0076SC23A' 
+INFO  12:49:28,081 ProgressMeter -     2:157394990   1003765.0    30.0 s      29.0 s       13.1%     3.8 m       3.3 m 
+INFO  12:49:58,084 ProgressMeter -      5:83408591   2435226.0    60.0 s      24.0 s       31.2%     3.2 m       2.2 m 
+INFO  12:50:28,185 ProgressMeter -     8:142988791   3904677.0    90.0 s      23.0 s       49.6%     3.0 m      91.0 s 
+INFO  12:50:58,192 ProgressMeter -     13:38932949   5392461.0   120.0 s      22.0 s       68.6%     2.9 m      54.0 s 
+INFO  12:51:28,193 ProgressMeter -     19:27736716   6803650.0     2.5 m      22.0 s       86.8%     2.9 m      22.0 s 
+INFO  12:51:44,751 SelectVariants - 5438034 records processed. 
+INFO  12:51:45,098 ProgressMeter -            done   7664099.0     2.8 m      21.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:51:45,099 ProgressMeter - Total runtime 167.05 secs, 2.78 min, 0.05 hours 
+INFO  12:51:49,466 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  12:51:52,535 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:51:52,537 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.4-46-gbc02625, Compiled 2015/07/09 17:38:12 
+INFO  12:51:52,537 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  12:51:52,537 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  12:51:52,541 HelpFormatter - Program Args: -T SelectVariants -R /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta -V /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/STE0076.filtered_variants_snpEff_snpSift_Cosmicv76_GoNLv5.vcf -o /hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Files/singles/STE0076SC32A.vcf -sn STE0076SC32A 
+INFO  12:51:52,556 HelpFormatter - Executing as avanhoeck@n0093.compute.hpc on Linux 3.10.0-957.1.3.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  12:51:52,557 HelpFormatter - Date/Time: 2019/09/25 12:51:52 
+INFO  12:51:52,557 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:51:52,557 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  12:51:52,797 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  12:51:52,881 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  12:51:53,072 GenomeAnalysisEngine - Preparing for traversal 
+INFO  12:51:53,080 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  12:51:53,080 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  12:51:53,084 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  12:51:53,086 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  12:51:53,090 SelectVariants - Including sample 'STE0076SC32A' 
+INFO  12:52:23,268 ProgressMeter -     2:137830964    957624.0    30.0 s      31.0 s       12.5%     4.0 m       3.5 m 
+INFO  12:52:53,413 ProgressMeter -      5:56983663   2380440.0    60.0 s      25.0 s       30.3%     3.3 m       2.3 m 
+INFO  12:53:23,662 ProgressMeter -     8:109546785   3827572.0    90.0 s      23.0 s       48.5%     3.1 m      95.0 s 
+INFO  12:53:53,664 ProgressMeter -    12:121271471   5288352.0   120.0 s      22.0 s       66.9%     3.0 m      59.0 s 
+INFO  12:54:23,804 ProgressMeter -      19:7230675   6743944.0     2.5 m      22.0 s       86.1%     2.9 m      24.0 s 
+INFO  12:54:41,354 SelectVariants - 5438034 records processed. 
+INFO  12:54:41,887 ProgressMeter -            done   7664099.0     2.8 m      22.0 s      100.0%     2.8 m       0.0 s 
+INFO  12:54:41,888 ProgressMeter - Total runtime 168.81 secs, 2.81 min, 0.05 hours 
+INFO  12:54:46,014 GATKRunReport - Uploaded run statistics report to AWS S3 
