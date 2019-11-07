@@ -21,4 +21,3 @@ for vcf in $folder/*.vcf; do
                 echo $samplename
                 cat $vcf | bio-vcf  -iq  --ifilter 's.gt=="0/1"'  > ${outdir_clean}${samplename}_potential_somatic.vcf
 done
-
