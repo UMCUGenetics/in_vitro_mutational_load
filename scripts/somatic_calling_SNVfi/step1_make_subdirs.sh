@@ -48,7 +48,11 @@ mkdir runs/MASEV/MASEVREF_CLONEH2SUBCLONE2
 mkdir runs/MASEV/MASEVREF_CLONEN4
 mkdir runs/MASEV/MASEVREF_CLONEH2
 
-
+mkdir runs/H9/
+mkdir runs/H9/H9BULK_H9CLONEH2
+mkdir runs/H9/H9BULK_H9CLONEH2SUBCLONE2
+mkdir runs/H9/H9BULK_H9CLONEN2
+mkdir runs/H9/H9BULK_H9CLONEN2SUBCLONE3
 
 ####
 #cope snvfi_ini_files
@@ -88,6 +92,12 @@ inidir="/hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/ini_files"
 #cp $inifile $inidir/MASEVREF_CLONEH2SUBCLONE2.ini
 #cp $inifile $inidir/MASEVREF_CLONEN4.ini
 #cp $inifile $inidir/MASEVREF_CLONEH2.ini
+#cp $inifile $inidir/H9BULK_H9CLONEH2.ini
+#cp $inifile $inidir/H9BULK_H9CLONEH2SUBCLONE2.ini
+#cp $inifile $inidir/H9BULK_H9CLONEN2.ini
+#cp $inifile $inidir/H9BULK_H9CLONEN2SUBCLONE3.ini
+#
+
 
 cp $inidir/STE0072_C12.ini runs/STE0072/STE0072_C12/STE0072_C12.ini
 cp $inidir/STE0072_C23.ini runs/STE0072/STE0072_C23/STE0072_C23.ini
@@ -122,7 +132,13 @@ cp $inidir/MASEVREF_CLONEH2SUBCLONE2.ini runs/MASEV/MASEVREF_CLONEH2SUBCLONE2/MA
 cp $inidir/MASEVREF_CLONEN4.ini runs/MASEV/MASEVREF_CLONEN4/MASEVREF_CLONEN4.ini
 cp $inidir/MASEVREF_CLONEH2.ini runs/MASEV/MASEVREF_CLONEH2/MASEVREF_CLONEH2.ini
 
-
+cp $inidir/H9BULK_H9CLONEH2.ini runs/H9/H9BULK_H9CLONEH2/H9BULK_H9CLONEH2.ini
+cp $inidir/H9BULK_H9CLONEH2SUBCLONE2.ini runs/H9/H9BULK_H9CLONEH2SUBCLONE2/H9BULK_H9CLONEH2SUBCLONE2.ini
+cp $inidir/H9BULK_H9CLONEN2.ini runs/H9/H9BULK_H9CLONEN2/H9BULK_H9CLONEN2.ini
+cp $inidir/H9BULK_H9CLONEN2SUBCLONE3.ini runs/H9/H9BULK_H9CLONEN2SUBCLONE3/H9BULK_H9CLONEN2SUBCLONE3.ini
+#
+#
+#
 #submit
 SNVFIrunscript=/hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/scripts/somatic_calling_SNVfi/SNVfi_AVH.sh
 SNVFIconfigfile=/hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/scripts/somatic_calling_SNVfi/SNVFI_default.config

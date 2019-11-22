@@ -1,0 +1,221 @@
+##fileformat=VCFv4.2
+##fileDate=20191121
+##SnpEffCmd="SnpEff  GRCh37.74 KUI4105.filtered_variants.vcf -hgvs -lof -no-downstream -no-upstream -no-intergenic "
+##SnpEffVersion="4.1h (build 2015-08-03), by Pablo Cingolani"
+##SnpSiftCmd="SnpSift dbnsfp -f hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,PROVEAN_pred,CADD_raw,CADD_raw_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT KUI4105.filtered_variants_snpEff.vcf"
+##SnpSiftCmd.1="SnpSift annotate -tabix -name GoNLv5_ -info AF,AN,AC /hpc/cog_bioinf/common_dbs/GoNL/gonl_release5/site_freqs/gonl.snps_indels.r5.sorted.vcf.gz KUI4105.filtered_variants_snpEff_snpSift_Cosmicv76.vcf"
+##SnpSiftVersion="SnpSift 4.1h (build 2015-08-03), by Pablo Cingolani"
+##reference=file:///hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.fasta
+##source=SelectVariants
+##ALT=<ID=NON_REF,Description=Represents any possible alternative allele at this location>
+##FILTER=<ID=INDEL_HardToValidate,Description="MQ0 >= 4 && ((MQ0 / (1.0 * DP)) > 0.1)">
+##FILTER=<ID=INDEL_LowCoverage,Description="DP < 5">
+##FILTER=<ID=INDEL_LowQual,Description="QUAL >= 30.0 && QUAL < 50.0">
+##FILTER=<ID=INDEL_LowQualityDepth,Description="QD < 2.0">
+##FILTER=<ID=INDEL_ReadPosRankSumLow,Description="ReadPosRankSum < -20.0">
+##FILTER=<ID=INDEL_SOR,Description="SOR > 10.0">
+##FILTER=<ID=INDEL_StrandBias,Description="FS > 200.0">
+##FILTER=<ID=INDEL_VeryLowQual,Description="QUAL < 30.0">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FILTER=<ID=SNP_HaplotypeScoreHigh,Description="HaplotypeScore > 13.0">
+##FILTER=<ID=SNP_HardToValidate,Description="MQ0 >= 4 && ((MQ0 / (1.0 * DP)) > 0.1)">
+##FILTER=<ID=SNP_LowCoverage,Description="DP < 5">
+##FILTER=<ID=SNP_LowQual,Description="QUAL >= 30.0 && QUAL < 50.0">
+##FILTER=<ID=SNP_LowQualityDepth,Description="QD < 2.0">
+##FILTER=<ID=SNP_MQRankSumLow,Description="MQRankSum < -12.5">
+##FILTER=<ID=SNP_MappingQuality,Description="MQ < 40.0">
+##FILTER=<ID=SNP_ReadPosRankSumLow,Description="ReadPosRankSum < -8.0">
+##FILTER=<ID=SNP_SOR,Description="SOR > 4.0">
+##FILTER=<ID=SNP_StrandBias,Description="FS > 60.0">
+##FILTER=<ID=SNP_VeryLowQual,Description="QUAL < 30">
+##FILTER=<ID=SnpCluster,Description="SNPs found in clusters">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ=255 or with bad mates are filtered)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum DP observed within the GVCF block">
+##FORMAT=<ID=PGT,Number=1,Type=String,Description="Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another">
+##FORMAT=<ID=PID,Number=1,Type=String,Description="Physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=RGQ,Number=1,Type=Integer,Description="Unconditional reference genotype confidence, encoded as a phred quality -10*log10 p(genotype call is wrong)">
+##FORMAT=<ID=SB,Number=4,Type=Integer,Description="Per-sample component statistics which comprise the Fisher's Exact Test to detect strand bias.">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO'">
+##INFO=<ID=BaseQRankSum,Number=1,Type=Float,Description="Z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities">
+##INFO=<ID=ClippingRankSum,Number=1,Type=Float,Description="Z-score From Wilcoxon rank sum test of Alt vs. Ref number of hard clipped bases">
+##INFO=<ID=DB,Number=0,Type=Flag,Description="dbSNP Membership">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth; some reads may have been filtered">
+##INFO=<ID=DS,Number=0,Type=Flag,Description="Were any of the samples downsampled?">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Stop position of the interval">
+##INFO=<ID=ExcessHet,Number=1,Type=Float,Description="Phred-scaled p-value for exact test of excess heterozygosity">
+##INFO=<ID=FS,Number=1,Type=Float,Description="Phred-scaled p-value using Fisher's exact test to detect strand bias">
+##INFO=<ID=HaplotypeScore,Number=1,Type=Float,Description="Consistency of the site with at most two segregating haplotypes">
+##INFO=<ID=InbreedingCoeff,Number=1,Type=Float,Description="Inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=MLEAC,Number=A,Type=Integer,Description="Maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed">
+##INFO=<ID=MLEAF,Number=A,Type=Float,Description="Maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed">
+##INFO=<ID=MQ,Number=1,Type=Float,Description="RMS Mapping Quality">
+##INFO=<ID=MQRankSum,Number=1,Type=Float,Description="Z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=QD,Number=1,Type=Float,Description="Variant Confidence/Quality by Depth">
+##INFO=<ID=RAW_MQ,Number=1,Type=Float,Description="Raw data for RMS Mapping Quality">
+##INFO=<ID=ReadPosRankSum,Number=1,Type=Float,Description="Z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias">
+##INFO=<ID=SOR,Number=1,Type=Float,Description="Symmetric Odds Ratio of 2x2 contingency table to detect strand bias">
+##INFO=<ID=dbNSFP_1000Gp1_AC,Number=A,Type=Integer,Description="Field '1000Gp1_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_AF,Number=A,Type=Float,Description="Field '1000Gp1_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_AFR_AC,Number=A,Type=Integer,Description="Field '1000Gp1_AFR_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_AFR_AF,Number=A,Type=Float,Description="Field '1000Gp1_AFR_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_AMR_AC,Number=A,Type=Integer,Description="Field '1000Gp1_AMR_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_AMR_AF,Number=A,Type=Float,Description="Field '1000Gp1_AMR_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_ASN_AC,Number=A,Type=Integer,Description="Field '1000Gp1_ASN_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_ASN_AF,Number=A,Type=Float,Description="Field '1000Gp1_ASN_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_EUR_AC,Number=A,Type=Integer,Description="Field '1000Gp1_EUR_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_1000Gp1_EUR_AF,Number=A,Type=Float,Description="Field '1000Gp1_EUR_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ARIC5606_AA_AC,Number=A,Type=Integer,Description="Field 'ARIC5606_AA_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ARIC5606_AA_AF,Number=A,Type=Float,Description="Field 'ARIC5606_AA_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ARIC5606_EA_AC,Number=A,Type=Integer,Description="Field 'ARIC5606_EA_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ARIC5606_EA_AF,Number=A,Type=Float,Description="Field 'ARIC5606_EA_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_Ancestral_allele,Number=A,Type=Character,Description="Field 'Ancestral_allele' from dbNSFP">
+##INFO=<ID=dbNSFP_CADD_phred,Number=A,Type=Float,Description="Field 'CADD_phred' from dbNSFP">
+##INFO=<ID=dbNSFP_CADD_raw,Number=A,Type=Float,Description="Field 'CADD_raw' from dbNSFP">
+##INFO=<ID=dbNSFP_CADD_raw_rankscore,Number=A,Type=Float,Description="Field 'CADD_raw_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_COSMIC_CNT,Number=A,Type=Integer,Description="Field 'COSMIC_CNT' from dbNSFP">
+##INFO=<ID=dbNSFP_COSMIC_ID,Number=A,Type=String,Description="Field 'COSMIC_ID' from dbNSFP">
+##INFO=<ID=dbNSFP_ESP6500_AA_AF,Number=A,Type=Float,Description="Field 'ESP6500_AA_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ESP6500_EA_AF,Number=A,Type=Float,Description="Field 'ESP6500_EA_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_Ensembl_geneid,Number=A,Type=String,Description="Field 'Ensembl_geneid' from dbNSFP">
+##INFO=<ID=dbNSFP_Ensembl_transcriptid,Number=A,Type=String,Description="Field 'Ensembl_transcriptid' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AC,Number=A,Type=Integer,Description="Field 'ExAC_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AF,Number=A,Type=Float,Description="Field 'ExAC_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AFR_AC,Number=A,Type=Integer,Description="Field 'ExAC_AFR_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AFR_AF,Number=A,Type=Float,Description="Field 'ExAC_AFR_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AMR_AC,Number=A,Type=Integer,Description="Field 'ExAC_AMR_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_AMR_AF,Number=A,Type=Float,Description="Field 'ExAC_AMR_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_Adj_AC,Number=A,Type=Integer,Description="Field 'ExAC_Adj_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_Adj_AF,Number=A,Type=Float,Description="Field 'ExAC_Adj_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_EAS_AC,Number=A,Type=Integer,Description="Field 'ExAC_EAS_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_EAS_AF,Number=A,Type=Float,Description="Field 'ExAC_EAS_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_FIN_AC,Number=A,Type=Integer,Description="Field 'ExAC_FIN_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_FIN_AF,Number=A,Type=Float,Description="Field 'ExAC_FIN_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_NFE_AC,Number=A,Type=Integer,Description="Field 'ExAC_NFE_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_NFE_AF,Number=A,Type=Float,Description="Field 'ExAC_NFE_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_SAS_AC,Number=A,Type=Integer,Description="Field 'ExAC_SAS_AC' from dbNSFP">
+##INFO=<ID=dbNSFP_ExAC_SAS_AF,Number=A,Type=Float,Description="Field 'ExAC_SAS_AF' from dbNSFP">
+##INFO=<ID=dbNSFP_FATHMM_pred,Number=A,Type=Character,Description="Field 'FATHMM_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_FATHMM_rankscore,Number=A,Type=Float,Description="Field 'FATHMM_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_FATHMM_score,Number=A,Type=Float,Description="Field 'FATHMM_score' from dbNSFP">
+##INFO=<ID=dbNSFP_GERP++_NR,Number=A,Type=Float,Description="Field 'GERP++_NR' from dbNSFP">
+##INFO=<ID=dbNSFP_GERP++_RS,Number=A,Type=Float,Description="Field 'GERP++_RS' from dbNSFP">
+##INFO=<ID=dbNSFP_GERP++_RS_rankscore,Number=A,Type=Float,Description="Field 'GERP++_RS_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_Interpro_domain,Number=A,Type=String,Description="Field 'Interpro_domain' from dbNSFP">
+##INFO=<ID=dbNSFP_LRT_Omega,Number=A,Type=Float,Description="Field 'LRT_Omega' from dbNSFP">
+##INFO=<ID=dbNSFP_LRT_converted_rankscore,Number=A,Type=Float,Description="Field 'LRT_converted_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_LRT_pred,Number=A,Type=Character,Description="Field 'LRT_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_LRT_score,Number=A,Type=Float,Description="Field 'LRT_score' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaLR_pred,Number=A,Type=Character,Description="Field 'MetaLR_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaLR_rankscore,Number=A,Type=Float,Description="Field 'MetaLR_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaLR_score,Number=A,Type=Float,Description="Field 'MetaLR_score' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaSVM_pred,Number=A,Type=Character,Description="Field 'MetaSVM_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaSVM_rankscore,Number=A,Type=Float,Description="Field 'MetaSVM_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_MetaSVM_score,Number=A,Type=Float,Description="Field 'MetaSVM_score' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationAssessor_pred,Number=A,Type=Character,Description="Field 'MutationAssessor_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationAssessor_rankscore,Number=A,Type=Float,Description="Field 'MutationAssessor_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationAssessor_score,Number=A,Type=Float,Description="Field 'MutationAssessor_score' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationTaster_converted_rankscore,Number=A,Type=Float,Description="Field 'MutationTaster_converted_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationTaster_pred,Number=A,Type=Character,Description="Field 'MutationTaster_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_MutationTaster_score,Number=A,Type=Float,Description="Field 'MutationTaster_score' from dbNSFP">
+##INFO=<ID=dbNSFP_PROVEAN_converted_rankscore,Number=A,Type=Float,Description="Field 'PROVEAN_converted_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_PROVEAN_pred,Number=A,Type=Character,Description="Field 'PROVEAN_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_PROVEAN_score,Number=A,Type=Float,Description="Field 'PROVEAN_score' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HDIV_pred,Number=A,Type=Character,Description="Field 'Polyphen2_HDIV_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HDIV_rankscore,Number=A,Type=Float,Description="Field 'Polyphen2_HDIV_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HDIV_score,Number=A,Type=Float,Description="Field 'Polyphen2_HDIV_score' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HVAR_pred,Number=A,Type=Character,Description="Field 'Polyphen2_HVAR_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HVAR_rankscore,Number=A,Type=Float,Description="Field 'Polyphen2_HVAR_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_Polyphen2_HVAR_score,Number=A,Type=Float,Description="Field 'Polyphen2_HVAR_score' from dbNSFP">
+##INFO=<ID=dbNSFP_Reliability_index,Number=A,Type=Integer,Description="Field 'Reliability_index' from dbNSFP">
+##INFO=<ID=dbNSFP_SIFT_converted_rankscore,Number=A,Type=Float,Description="Field 'SIFT_converted_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_SIFT_pred,Number=A,Type=Character,Description="Field 'SIFT_pred' from dbNSFP">
+##INFO=<ID=dbNSFP_SIFT_score,Number=A,Type=Float,Description="Field 'SIFT_score' from dbNSFP">
+##INFO=<ID=dbNSFP_SLR_test_statistic,Number=A,Type=Float,Description="Field 'SLR_test_statistic' from dbNSFP">
+##INFO=<ID=dbNSFP_SiPhy_29way_logOdds,Number=A,Type=Float,Description="Field 'SiPhy_29way_logOdds' from dbNSFP">
+##INFO=<ID=dbNSFP_SiPhy_29way_logOdds_rankscore,Number=A,Type=Float,Description="Field 'SiPhy_29way_logOdds_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_SiPhy_29way_pi,Number=A,Type=String,Description="Field 'SiPhy_29way_pi' from dbNSFP">
+##INFO=<ID=dbNSFP_UniSNP_ids,Number=A,Type=String,Description="Field 'UniSNP_ids' from dbNSFP">
+##INFO=<ID=dbNSFP_Uniprot_aapos,Number=A,Type=Integer,Description="Field 'Uniprot_aapos' from dbNSFP">
+##INFO=<ID=dbNSFP_Uniprot_acc,Number=A,Type=String,Description="Field 'Uniprot_acc' from dbNSFP">
+##INFO=<ID=dbNSFP_Uniprot_id,Number=A,Type=String,Description="Field 'Uniprot_id' from dbNSFP">
+##INFO=<ID=dbNSFP_VEST3_rankscore,Number=A,Type=Float,Description="Field 'VEST3_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_VEST3_score,Number=A,Type=Float,Description="Field 'VEST3_score' from dbNSFP">
+##INFO=<ID=dbNSFP_aapos,Number=A,Type=Integer,Description="Field 'aapos' from dbNSFP">
+##INFO=<ID=dbNSFP_aapos_FATHMM,Number=A,Type=String,Description="Field 'aapos_FATHMM' from dbNSFP">
+##INFO=<ID=dbNSFP_aapos_SIFT,Number=A,Type=String,Description="Field 'aapos_SIFT' from dbNSFP">
+##INFO=<ID=dbNSFP_cds_strand,Number=A,Type=Character,Description="Field 'cds_strand' from dbNSFP">
+##INFO=<ID=dbNSFP_clinvar_clnsig,Number=A,Type=Integer,Description="Field 'clinvar_clnsig' from dbNSFP">
+##INFO=<ID=dbNSFP_clinvar_rs,Number=A,Type=String,Description="Field 'clinvar_rs' from dbNSFP">
+##INFO=<ID=dbNSFP_clinvar_trait,Number=A,Type=String,Description="Field 'clinvar_trait' from dbNSFP">
+##INFO=<ID=dbNSFP_codonpos,Number=A,Type=Integer,Description="Field 'codonpos' from dbNSFP">
+##INFO=<ID=dbNSFP_fold-degenerate,Number=A,Type=Integer,Description="Field 'fold-degenerate' from dbNSFP">
+##INFO=<ID=dbNSFP_genename,Number=A,Type=String,Description="Field 'genename' from dbNSFP">
+##INFO=<ID=dbNSFP_hg38_chr,Number=A,Type=String,Description="Field 'hg38_chr' from dbNSFP">
+##INFO=<ID=dbNSFP_hg38_pos,Number=A,Type=Integer,Description="Field 'hg38_pos' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons100way_vertebrate,Number=A,Type=Float,Description="Field 'phastCons100way_vertebrate' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons100way_vertebrate_rankscore,Number=A,Type=Float,Description="Field 'phastCons100way_vertebrate_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons46way_placental,Number=A,Type=Float,Description="Field 'phastCons46way_placental' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons46way_placental_rankscore,Number=A,Type=Float,Description="Field 'phastCons46way_placental_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons46way_primate,Number=A,Type=Float,Description="Field 'phastCons46way_primate' from dbNSFP">
+##INFO=<ID=dbNSFP_phastCons46way_primate_rankscore,Number=A,Type=Float,Description="Field 'phastCons46way_primate_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP100way_vertebrate,Number=A,Type=Float,Description="Field 'phyloP100way_vertebrate' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP100way_vertebrate_rankscore,Number=A,Type=Float,Description="Field 'phyloP100way_vertebrate_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP46way_placental,Number=A,Type=Float,Description="Field 'phyloP46way_placental' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP46way_placental_rankscore,Number=A,Type=Float,Description="Field 'phyloP46way_placental_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP46way_primate,Number=A,Type=Float,Description="Field 'phyloP46way_primate' from dbNSFP">
+##INFO=<ID=dbNSFP_phyloP46way_primate_rankscore,Number=A,Type=Float,Description="Field 'phyloP46way_primate_rankscore' from dbNSFP">
+##INFO=<ID=dbNSFP_refcodon,Number=A,Type=String,Description="Field 'refcodon' from dbNSFP">
+##INFO=<ID=set,Number=1,Type=String,Description="Source VCF for the merged record in CombineVariants">
+##INFO=<ID=GoNLv5_AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=GoNLv5_AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">
+##INFO=<ID=GoNLv5_AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##contig=<ID=1,length=249250621>
+##contig=<ID=2,length=243199373>
+##contig=<ID=3,length=198022430>
+##contig=<ID=4,length=191154276>
+##contig=<ID=5,length=180915260>
+##contig=<ID=6,length=171115067>
+##contig=<ID=7,length=159138663>
+##contig=<ID=8,length=146364022>
+##contig=<ID=9,length=141213431>
+##contig=<ID=10,length=135534747>
+##contig=<ID=11,length=135006516>
+##contig=<ID=12,length=133851895>
+##contig=<ID=13,length=115169878>
+##contig=<ID=14,length=107349540>
+##contig=<ID=15,length=102531392>
+##contig=<ID=16,length=90354753>
+##contig=<ID=17,length=81195210>
+##contig=<ID=18,length=78077248>
+##contig=<ID=19,length=59128983>
+##contig=<ID=20,length=63025520>
+##contig=<ID=21,length=48129895>
+##contig=<ID=22,length=51304566>
+##contig=<ID=X,length=155270560>
+##contig=<ID=Y,length=59373566>
+##contig=<ID=MT,length=16569>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	H9BULK	H9CLONEH2	H9CLONEH2SUBCLONE2	H9CLONEN2	H9CLONEN2SUBCLONE3
+1	22755931	1:22755931_A/AT	A	AT	123.65	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=-0.181;ClippingRankSum=0;DP=184;ExcessHet=3.0103;FS=8.695;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=3.99;ReadPosRankSum=-0.254;SOR=1.485;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PL	0/0:36,0:36:99:0,99,1266	0/0:32,0:32:90:0,90,1078	0/1:21,10:31:99:165,0,384	0/0:42,0:42:89:0,89,1448	0/0:38,0:38:42:0,42,1219
+1	149283537	1:149283537_AT/A	AT	A	157.66	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=1.67;ClippingRankSum=0;DP=149;ExcessHet=3.0103;FS=1.413;MLEAC=1;MLEAF=0.1;MQ=62.51;MQRankSum=-0.422;QD=6.57;ReadPosRankSum=1.53;SOR=0.811;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:43,0:43:99:.:.:0,108,1620	0/0:37,0:37:93:.:.:0,93,1224	0/1:16,8:24:99:0|1:149283537_AT_A:199,0,594	0/0:20,1:21:24:0|1:149283537_AT_A:0,24,876	0/0:23,0:23:38:.:.:0,38,721
+2	65827869	2:65827869_CCCCCCCACCTCCTTCCCGGACGGGGCGGCTGGCCGGGCAGAGGGGCTCCTCACTTCCCAGTAGGGGCGGCCGGGCAGAGGCACCCCTCACCTCCCGGATGGGGTGGCTGGCCGGGCGGGGGGCTG/C	CCCCCCCACCTCCTTCCCGGACGGGGCGGCTGGCCGGGCAGAGGGGCTCCTCACTTCCCAGTAGGGGCGGCCGGGCAGAGGCACCCCTCACCTCCCGGATGGGGTGGCTGGCCGGGCGGGGGGCTG	C	548.65	PASS	AC=1;AF=0.1;AN=10;ANN=C|intron_variant|MODIFIER|AC074391.1|ENSG00000204929|transcript|ENST00000377977|lincRNA|4/4|n.863-91040_863-90916del||||||INFO_REALIGN_3_PRIME,C|intron_variant|MODIFIER|AC007389.3|ENSG00000235725|transcript|ENST00000420724|lincRNA|2/3|n.1269+297_1269+421del||||||,C|intron_variant|MODIFIER|AC074391.1|ENSG00000204929|transcript|ENST00000606978|lincRNA|4/9|n.456-91040_456-90916del||||||INFO_REALIGN_3_PRIME;BaseQRankSum=3.13;ClippingRankSum=0;DP=170;ExcessHet=3.0103;FS=8.235;MLEAC=1;MLEAF=0.1;MQ=43.44;MQRankSum=0.57;QD=22.86;ReadPosRankSum=-1.534;SOR=2.78;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PL	0/0:39,0:39:99:0,108,1620	0/0:29,0:29:81:0,81,1215	0/1:9,15:24:99:590,0,274	0/0:43,0:43:99:0,114,1244	0/0:33,0:33:93:0,93,1097
+3	88301132	3:88301132_G/GTGT	G	GTGT	620.25	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=0.425;ClippingRankSum=0;DP=162;ExcessHet=3.4242;FS=1.32;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=17.72;ReadPosRankSum=-0.644;SOR=1.061;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PL	0/0:38,0:38:99:0,99,1485	0/0:32,0:32:0:0,0,923	0/1:18,17:35:99:660,0,824	0/0:34,0:34:99:0,99,1204	0/0:23,0:23:63:0,63,945
+5	10638989	5:10638989_ATGTTAG/A	ATGTTAG	A	260.65	PASS	AC=1;AF=0.1;AN=10;ANN=A|sequence_feature|LOW|ANKRD33B|ENSG00000164236|repeat:ANK_4|ENST00000296657|protein_coding||c.637+710_637+715delTGTTAG||||||,A|intron_variant|MODIFIER|ANKRD33B|ENSG00000164236|transcript|ENST00000296657|protein_coding|3/3|c.637+710_637+715delTGTTAG||||||,A|intron_variant|MODIFIER|ANKRD33B|ENSG00000164236|transcript|ENST00000504806|nonsense_mediated_decay|4/4|n.*497+710_*497+715delTGTTAG||||||;BaseQRankSum=0.746;ClippingRankSum=0;DP=185;ExcessHet=3.0103;FS=9.093;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=8.69;ReadPosRankSum=-1.203;SOR=1.208;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:41,0:41:99:.:.:0,101,1393	0/0:33,0:33:90:.:.:0,90,1350	0/1:21,9:30:99:0|1:10638989_ATGTTAG_A:302,0,8722	0/0:44,0:44:99:.:.:0,120,1800	0/0:37,0:37:96:.:.:0,96,1440
+6	5148706	6:5148706_G/GGGGGCGC	G	GGGGGCGC	636.13	PASS	AC=2;AF=0.2;AN=10;ANN=GGGGGCGC|intron_variant|MODIFIER|LYRM4|ENSG00000214113|transcript|ENST00000330636|protein_coding|2/2|c.208-38982_208-38981insGCGCCCC||||||,GGGGGCGC|intron_variant|MODIFIER|LYRM4|ENSG00000214113|transcript|ENST00000468929|protein_coding|1/1|c.87-38982_87-38981insGCGCCCC||||||,GGGGGCGC|intron_variant|MODIFIER|LYRM4|ENSG00000214113|transcript|ENST00000464010|protein_coding|2/3|c.208-4211_208-4210insGCGCCCC||||||,GGGGGCGC|intron_variant|MODIFIER|LYRM4|ENSG00000214113|transcript|ENST00000463032|nonsense_mediated_decay|2/3|n.124-35056_124-35055insGCGCCCC||||||,GGGGGCGC|intron_variant|MODIFIER|LYRM4|ENSG00000214113|transcript|ENST00000480566|protein_coding|2/3|c.208-9734_208-9733insGCGCCCC||||||;BaseQRankSum=0.478;ClippingRankSum=0;DP=228;ExcessHet=3.5218;FS=1.072;MLEAC=2;MLEAF=0.2;MQ=57.94;MQRankSum=-0.935;QD=10.1;ReadPosRankSum=0.388;SOR=0.492;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:51,0:51:99:.:.:0,120,1800	0/0:54,0:54:99:.:.:0,120,1800	0/1:18,12:30:99:0|1:5148706_G_GGGGGCGC:429,0,757	0/0:60,0:60:99:.:.:0,120,1800	0/1:25,8:33:99:0|1:5148706_G_GGGGGCGC:252,0,1157
+6	112489956	6:112489956_ATGTGTGTCTGTG/A	ATGTGTGTCTGTG	A	244.65	PASS	AC=1;AF=0.1;AN=10;ANN=A|sequence_feature|LOW|LAMA4|ENSG00000112769|region_of_interest:Domain_II_and_I|ENST00000230538|protein_coding||c.1552-3490_1552-3479delCACAGACACACA||||||,A|sequence_feature|LOW|LAMA4|ENSG00000112769|coiled-coil_region|ENST00000230538|protein_coding||c.1552-3490_1552-3479delCACAGACACACA||||||,A|sequence_feature|LOW|LAMA4|ENSG00000112769|coiled-coil_region|ENST00000424408|protein_coding||c.1531-3490_1531-3479delCACAGACACACA||||||,A|intron_variant|MODIFIER|LAMA4|ENSG00000112769|transcript|ENST00000230538|protein_coding|12/38|c.1552-3490_1552-3479delCACAGACACACA||||||,A|intron_variant|MODIFIER|LAMA4|ENSG00000112769|transcript|ENST00000522006|protein_coding|12/38|c.1531-3490_1531-3479delCACAGACACACA||||||,A|intron_variant|MODIFIER|LAMA4|ENSG00000112769|transcript|ENST00000389463|protein_coding|12/38|c.1531-3490_1531-3479delCACAGACACACA||||||,A|intron_variant|MODIFIER|LAMA4|ENSG00000112769|transcript|ENST00000424408|protein_coding|11/37|c.1531-3490_1531-3479delCACAGACACACA||||||;BaseQRankSum=0.199;ClippingRankSum=0;DP=167;ExcessHet=3.0103;FS=10.139;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=9.79;ReadPosRankSum=0.758;SOR=1.755;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PL	0/0:36,0:36:99:0,99,1351	0/0:33,0:33:99:0,99,1210	0/1:17,8:25:99:286,0,2237	0/0:35,0:35:99:0,99,1485	0/0:32,0:32:90:0,90,1350
+8	144153617	8:144153617_C/CATCATCCTCGGG	C	CATCATCCTCGGG	382.65	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=0.198;ClippingRankSum=0;DP=206;ExcessHet=3.0103;FS=5.447;MLEAC=1;MLEAF=0.1;MQ=56.6;MQRankSum=-3.478;QD=10.63;ReadPosRankSum=-1.514;SOR=0.194;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:42,0:42:99:.:.:0,120,1800	0/0:40,0:40:96:.:.:0,96,1440	0/1:20,16:36:99:0|1:144153617_C_CATCATCCTCGGG:424,0,756	0/0:41,0:41:99:.:.:0,117,1755	0/0:47,0:47:99:.:.:0,118,1631
+9	95973410	9:95973410_ACTTACTCATCCACTCACTTATTCACTCACAGATTCC/A	ACTTACTCATCCACTCACTTATTCACTCACAGATTCC	A	208.65	PASS	AC=1;AF=0.1;AN=10;ANN=A|sequence_feature|LOW|WNK2|ENSG00000165238|domain:Protein_kinase|ENST00000297954|protein_coding||c.682-18567_682-18532delCTTACTCATCCACTCACTTATTCACTCACAGATTCC||||||,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000297954|protein_coding|1/29|c.682-18565_682-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000448039|protein_coding|1/9|c.682-18565_682-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||WARNING_TRANSCRIPT_INCOMPLETE&INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000427277|protein_coding|1/28|c.-483-18565_-483-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000349097|protein_coding|1/29|c.-483-18565_-483-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000356055|protein_coding|1/31|c.-4224-18565_-4224-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000395475|protein_coding|1/27|c.640-18565_640-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||WARNING_TRANSCRIPT_NO_STOP_CODON&INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000395477|protein_coding|1/28|c.682-18565_682-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||INFO_REALIGN_3_PRIME,A|intron_variant|MODIFIER|WNK2|ENSG00000165238|transcript|ENST00000432730|protein_coding|1/28|c.667-18565_667-18530delTACTCATCCACTCACTTATTCACTCACAGATTCCCT||||||WARNING_TRANSCRIPT_NO_START_CODON&INFO_REALIGN_3_PRIME;BaseQRankSum=1.32;ClippingRankSum=0;DP=231;ExcessHet=3.0103;FS=0;MLEAC=1;MLEAF=0.1;MQ=59.76;MQRankSum=0;QD=9.48;SOR=1.085;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:57,0:57:99:.:.:0,108,1790	0/0:45,0:45:97:.:.:0,97,1401	0/1:15,7:22:99:0|1:95973404_CCCCT_C:250,0,6018	0/0:61,0:61:99:.:.:0,120,1800	0/0:37,0:37:99:.:.:0,111,1310
+11	388866	11:388866_AGGCTTTCCAGACAGTCCTGGGAGGAGGGTCCTTCAGGAGG/A	AGGCTTTCCAGACAGTCCTGGGAGGAGGGTCCTTCAGGAGG	A	1228.13	PASS	AC=2;AF=0.2;AN=10;BaseQRankSum=0.373;ClippingRankSum=0;DP=276;ExcessHet=3.5218;FS=19.382;MLEAC=2;MLEAF=0.2;MQ=57.45;MQRankSum=-1.591;QD=12.93;ReadPosRankSum=-1.663;SOR=1.565;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:45,0:45:99:.:.:0,108,1620	0/0:51,0:51:99:.:.:0,114,1629	0/1:30,17:47:99:0|1:388866_AGGCTTTCCAGACAGTCCTGGGAGGAGGGTCCTTCAGGAGG_A:558,0,1063	0/1:27,21:48:99:.:.:715,0,966	0/0:64,0:64:99:.:.:0,103,1800
+12	20716837	12:20716837_T/TCC	T	TCC	522.65	PASS	AC=1;AF=0.1;AN=10;ANN=TCC|intron_variant|MODIFIER|PDE3A|ENSG00000172572|transcript|ENST00000359062|protein_coding|2/15|c.1011+7197_1011+7198dupCC||||||INFO_REALIGN_3_PRIME;BaseQRankSum=0.895;ClippingRankSum=0;DP=164;ExcessHet=3.0103;FS=5.501;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=15.84;ReadPosRankSum=-0.162;SOR=1.868;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PL	0/0:34,0:34:99:0,99,1249	0/0:31,0:31:90:0,90,1071	0/1:17,16:33:99:564,0,609	0/0:33,0:33:99:0,99,1180	0/0:30,0:30:81:0,81,1215
+12	42478909	12:42478909_A/AGAG	A	AGAG	2695.19	PASS	AC=3;AF=0.3;AN=10;ANN=AGAG|3_prime_UTR_variant|MODIFIER|GXYLT1|ENSG00000151233|transcript|ENST00000398675|protein_coding|8/8|c.*2678_*2679insCTC|||||2678|;BaseQRankSum=-0.053;ClippingRankSum=0;DP=260;ExcessHet=6.1542;FS=17.989;MLEAC=4;MLEAF=0.4;MQ=66.83;MQRankSum=-1.403;QD=17.17;ReadPosRankSum=1.51;SOR=1.25;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:38,0:38:99:.:.:0,120,1986	0/1:30,30:60:99:0|1:42478897_G_T:1250,0,1169	0/1:24,30:54:99:0|1:42478686_T_A:1229,0,869	0/0:65,0:65:0:.:.:0,0,291	0/1:35,8:43:99:0|1:42478897_G_T:259,0,1443
+17	63252875	17:63252875_AT/A	AT	A	204.65	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=0.476;ClippingRankSum=0;DP=248;ExcessHet=3.0103;FS=0;MLEAC=1;MLEAF=0.1;MQ=80.98;MQRankSum=0;QD=4.76;ReadPosRankSum=1.19;SOR=0.701;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:42,0:42:99:.:.:0,117,1755	0/0:58,0:58:84:.:.:0,84,1752	0/1:26,17:43:99:0|1:63252875_AT_A:246,0,587	0/0:44,2:46:91:.:.:0,91,1216	0/0:46,0:46:35:.:.:0,35,1282
+19	56746420	19:56746420_GCCTCTGATTGACCGTGGGCCAAGCCTCCACTCCAACCTCTGATGGACGGTGGGCCAAGCCTCCACTCCAA/G	GCCTCTGATTGACCGTGGGCCAAGCCTCCACTCCAACCTCTGATGGACGGTGGGCCAAGCCTCCACTCCAA	G	418.7	PASS	AC=1;AF=0.1;AN=10;ANN=G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000587340|protein_coding|3/6|c.-2-10073_-2-10004delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000254165|protein_coding|2/4|c.34-11287_34-11218delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000587492|protein_coding|2/4|c.-54-11287_-54-11218delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000593106|protein_coding|2/4|c.-15-11326_-15-11257delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||WARNING_TRANSCRIPT_NO_STOP_CODON,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000592509|protein_coding|2/2|c.-2-10073_-2-10004delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||WARNING_TRANSCRIPT_INCOMPLETE,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000588955|protein_coding|2/2|c.-127-9948_-127-9879delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||WARNING_TRANSCRIPT_INCOMPLETE,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000588442|protein_coding|2/2|c.-127-9948_-127-9879delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||WARNING_TRANSCRIPT_INCOMPLETE,G|intron_variant|MODIFIER|ZSCAN5A|ENSG00000131848|transcript|ENST00000592679|protein_coding|2/2|c.-127-9948_-127-9879delTTGGAGTGGAGGCTTGGCCCACCGTCCATCAGAGGTTGGAGTGGAGGCTTGGCCCACGGTCAATCAGAGG||||||WARNING_TRANSCRIPT_INCOMPLETE;BaseQRankSum=1.55;ClippingRankSum=0;DP=207;ExcessHet=3.0103;FS=0;MLEAC=1;MLEAF=0.1;MQ=57.64;MQRankSum=-0.714;QD=10.47;ReadPosRankSum=0.937;SOR=0.593;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:36,0:45:99:0|1:56746405_GAAGCCTCCACTCCAGCCTCTGATTGACCGTGGGCCAAGCCTCCACTCCAACCTCTGATGGACGGTGGGCCAAGCCTCCACTCCAACCTCTGATGGACGGTGGGCC_G:0,109,3194	0/0:37,0:37:81:.:.:0,81,1172	0/1:28,12:40:99:0|1:56746420_GCCTCTGATTGACCGTGGGCCAAGCCTCCACTCCAACCTCTGATGGACGGTGGGCCAAGCCTCCACTCCAA_G:451,0,3988	0/0:39,0:39:99:.:.:0,110,1580	0/0:43,0:43:99:.:.:0,105,1434
+21	44733062	21:44733062_C/CTT	C	CTT	339.65	PASS	AC=1;AF=0.1;AN=10;BaseQRankSum=0.879;ClippingRankSum=0;DP=197;ExcessHet=3.0103;FS=0;MLEAC=1;MLEAF=0.1;MQ=60;MQRankSum=0;QD=9.43;ReadPosRankSum=-4.742;SOR=0.502;dbNSFP_Ancestral_allele=.;dbNSFP_COSMIC_ID=.;dbNSFP_Ensembl_geneid=.;dbNSFP_Ensembl_transcriptid=.;dbNSFP_FATHMM_pred=.;dbNSFP_Interpro_domain=.;dbNSFP_LRT_pred=.;dbNSFP_MetaLR_pred=.;dbNSFP_MetaSVM_pred=.;dbNSFP_MutationAssessor_pred=.;dbNSFP_MutationTaster_pred=.;dbNSFP_PROVEAN_pred=.;dbNSFP_Polyphen2_HDIV_pred=.;dbNSFP_Polyphen2_HVAR_pred=.;dbNSFP_SIFT_pred=.;dbNSFP_SiPhy_29way_pi=.;dbNSFP_UniSNP_ids=.;dbNSFP_Uniprot_acc=.;dbNSFP_Uniprot_id=.;dbNSFP_aapos_FATHMM=.;dbNSFP_aapos_SIFT=.;dbNSFP_cds_strand=.;dbNSFP_clinvar_rs=.;dbNSFP_clinvar_trait=.;dbNSFP_genename=.;dbNSFP_hg38_chr=.;dbNSFP_refcodon=.	GT:AD:DP:GQ:PGT:PID:PL	0/0:41,0:41:99:.:.:0,102,1313	0/0:34,0:34:89:.:.:0,89,1131	0/1:18,18:36:99:0|1:44733062_C_CTT:381,0,3983	0/0:40,0:40:99:.:.:0,99,1382	0/0:41,0:41:99:.:.:0,99,1367

@@ -12,7 +12,7 @@ folder=/hpc/cog_bioinf/cuppen/project_data/Arne_ips_organoid_invitro/RAW_DATA_Fi
 
 
 cd $folder
-mkdir potential_somatic
+#mkdir potential_somatic
 outdir_clean=$folder/potential_somatic/
 
 for vcf in $folder/*.vcf; do
